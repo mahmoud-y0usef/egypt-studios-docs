@@ -22,8 +22,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ar',
-    locales: ['ar'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -80,42 +80,47 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'روابط مباشرة',
+            title: 'shop',
             items: [
               {
-                label: ' من نحن',
-                to: '/docs/intro',
-              },
-              {
-                label: 'سياسة الخصوصية',
-                to: '/docs/intro',
+                label: 'tebex',
+                to: 'https://egyptstudio.tebex.io/',
               },
             ],
           },
           {
-            title: 'المجتمع',
+            title: 'rules',
             items: [
               {
-                label: 'ديسكورد',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'فيسبوك',
-                href: 'https://twitter.com/docusaurus',
+                label: 'about us',
+                to: '/pages/rules',
               },
             ],
           },
           {
-            title: 'المزيد',
+            title: 'Society',
             items: [
               {
-                label: 'المقالات',
+                label: 'discord',
+                href: 'https://discord.gg/Q6VpZTueKF',
+              },
+              {
+                label: 'youtube',
+                href: 'https://www.youtube.com/c/Konar1',
+              },
+            ],
+          },
+          {
+            title: 'more',
+            items: [
+              {
+                label: 'blog',
                 to: '/blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mood | made with 💗 by Mahmoud Yousef`,
+        copyright: `Copyright © ${new Date().getFullYear()} 💗 egypt studios `,
       },
       prism: {
         theme: lightCodeTheme,
