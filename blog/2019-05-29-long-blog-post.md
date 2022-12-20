@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: Ahmed Yousef
+authors: [Ahmed]
 tags: [hello, docusaurus]
 ---
 
