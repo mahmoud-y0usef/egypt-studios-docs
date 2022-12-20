@@ -84,7 +84,7 @@ const config = {
             items: [
               {
                 label: 'tebex',
-                to: 'https://egyptstudio.tebex.io/',
+                href: 'https://egyptstudio.tebex.io/',
               },
             ],
           },
