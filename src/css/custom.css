@@ -14,9 +14,10 @@ header , footer{
 .pagination-nav__sublabel{
   color: white;
 }
-.title_kItE{
+.title_kItE , p , h1{
   margin-left: 10%;
 }
+
 
 :root {
   --ifm-color-primary: #ed3709;
