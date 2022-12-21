@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'egypt-studios',
+  title: 'docs',
   tagline: `Welcome to Egypt Studio 
     The goal : programming new things that affect the community of the fivem or more, and other things`,
   url: 'https://egypt-studios-docs.vercel.app/',
