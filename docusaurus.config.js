@@ -82,15 +82,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'links',
-            items: [
-              {
-                label: 'rules',
-                
-              },
-            ],
-          },
+          // {
+          //   title: 'links',
+          //   items: [
+          //     {
+          //       label: 'rules',
+          //       to: '/src/pages/rules',
+          //     },
+          //   ],
+          // },
           {
             title: 'Society',
             items: [
