@@ -82,15 +82,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'links',
-          //   items: [
-          //     {
-          //       label: 'rules',
-          //       to: '/src/pages/rules',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'links',
+            items: [
+              {
+                label: 'rules',
+                href: 'https://egypt-studios-docs.vercel.app/rules',
+              },
+            ],
+          },
           {
             title: 'Society',
             items: [
