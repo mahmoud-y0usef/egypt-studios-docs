@@ -12,8 +12,10 @@ header , footer{
   color: white;
 }
 .pagination-nav__sublabel{
-  border: none;
   color: white;
+}
+.title_kItE{
+  margin-left: 10%;
 }
 
 :root {
