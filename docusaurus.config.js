@@ -70,7 +70,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            type: 'doc',
+            type: 'page',
             docId: 'rules',
             position: 'left',
             label: 'rules',
