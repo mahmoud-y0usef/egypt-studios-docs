@@ -70,6 +70,7 @@ const config = {
             label: 'docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/src/pages/rules', label: 'Rules', position: 'left'},
           {
             href: 'https://egyptstudio.tebex.io/category/2031240',
             label: 'Shop Now',
@@ -83,15 +84,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'links',
-            items: [
-              {
-                label: 'rules',
-                href: 'https://egypt-studios-docs.vercel.app/rules',
-              },
-            ],
-          },
           {
             title: 'Society',
             items: [
