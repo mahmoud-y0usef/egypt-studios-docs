@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'egypt studios',
+        title: 'home',
         logo: {
           alt: 'egypt studios',
           src: 'img/logo.png',
