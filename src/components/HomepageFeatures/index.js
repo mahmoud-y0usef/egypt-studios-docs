@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Welcome to Egypt Studio
+      The goal: programming new things that affect the community of the five or more, and other things
       </>
     ),
   },
@@ -18,18 +18,19 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We have end support for any script other than our own script that we are making from scratch
+      We have also placed support only for monthly subscribers to the channel in order for them to receive a sufficient amount of support
+      Stay tuned for our scripts coming soon, including all the policies in a completely different way"
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by egypt studios',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Welcome to Egypt Studio
+      The goal: programming new things that affect the community of the five or more, and other things
       </>
     ),
   },
