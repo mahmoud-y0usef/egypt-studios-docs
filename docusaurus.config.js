@@ -69,11 +69,6 @@ const config = {
             position: 'left',
             label: 'esx scripts',
           },
-          {
-            position: 'left',
-            label: 'qb scripts',
-            to:'/docs1'
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
