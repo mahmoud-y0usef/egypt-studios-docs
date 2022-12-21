@@ -70,7 +70,7 @@ const config = {
             label: 'docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/src/pages/rules', label: 'Rules', position: 'left'},
+          {to: '/rules', label: 'Rules', position: 'left'},
           {
             href: 'https://egyptstudio.tebex.io/category/2031240',
             label: 'Shop Now',
