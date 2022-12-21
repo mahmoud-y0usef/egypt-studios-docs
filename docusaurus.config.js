@@ -7,9 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'egypt studios',
   tagline: `Welcome to Egypt Studio 
-    The goal: programming new things that affect the community of the five or more, and other things
-  `,
-  url: 'https://mood-docs.vercel.app/',
+    The goal : programming new things that affect the community of the fivem or more, and other things`,
+  url: 'https://egypt-studios-docs.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
