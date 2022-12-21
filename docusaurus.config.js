@@ -70,6 +70,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            type: 'doc',
+            docId: 'rules',
+            position: 'left',
+            label: 'rules',
+          },
+          {to: '/pages', label: 'rules', position: 'left'},
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
@@ -84,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'about us',
-                to: '/docs/dpage/rules',
+                to: '/pages/rules',
               },
             ],
           },
