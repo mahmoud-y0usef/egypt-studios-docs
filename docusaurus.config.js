@@ -80,15 +80,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'shop',
-            items: [
-              {
-                label: 'tebex',
-                to: 'https://egyptstudio.tebex.io/',
-              },
-            ],
-          },
-          {
             title: 'rules',
             items: [
               {
