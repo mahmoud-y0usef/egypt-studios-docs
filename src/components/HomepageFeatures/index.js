@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Game Developer & fivem Developer Scripts',
-    Svg: require('@site/static/img/game-developer').default,
+    Svg: require('@site/static/img/game-developer.png').default,
     description: (
       <>
         we can make your own game design and game server , we can build fivem scripts from zero in your server 
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Web Developer',
-    Svg: require('@site/static/img/web-developer').default,
+    Svg: require('@site/static/img/web-developer.jpeg').default,
     description: (
       <>
         we can make your website for your server or another fields like portfolio & cv & ecommerce & more...
