@@ -84,7 +84,7 @@ const config = {
             items: [
               {
                 label: 'about us',
-                to: 'dpage/rules',
+                href: 'dpage/rules.md',
               },
             ],
           },
