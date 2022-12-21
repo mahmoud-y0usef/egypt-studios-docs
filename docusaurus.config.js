@@ -84,7 +84,7 @@ const config = {
             items: [
               {
                 label: 'about us',
-                to: '/docs/intro',
+                to: '/pages/rules',
               },
             ],
           },
