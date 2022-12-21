@@ -6,7 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'egypt studios',
-  tagline: 'Welcome to Egypt Studio The goal: programming new things that affect the community of the five or more, and other things soonWork: We have end support for any script other than our own script that we are making from scratchWe have also placed support only for monthly subscribers to the channel in order for them to receive a sufficient amount of supportStay tuned for our scripts coming soon, including all the policies in a completely different way',
+  tagline: `Welcome to Egypt Studio 
+    The goal: programming new things that affect the community of the five or more, and other things
+  `,
   url: 'https://mood-docs.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -66,12 +68,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'علوم الحاسب',
+            label: 'esx scripts',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Shop Now',
             position: 'right',
           },
           // {
