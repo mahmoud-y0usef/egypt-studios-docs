@@ -71,7 +71,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'intro1',
             position: 'left',
             label: 'qb scripts',
             to:'/docs1'
