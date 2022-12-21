@@ -83,11 +83,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'rules',
+            title: 'links',
             items: [
               {
-                label: 'about us',
-                to: '/src/pages/rules',
+                label: 'rules',
+                
               },
             ],
           },
