@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Software',
-    Svg: require('@site/static/img/System-Software.jpg').default,
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
         we can build your software programm in other fields
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Game Developer & fivem Developer Scripts',
-    Svg: require('@site/static/img/game-developer.png').default,
+    Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
         we can make your own game design and game server , we can build fivem scripts from zero in your server 
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Web Developer',
-    Svg: require('@site/static/img/web-developer.jpeg').default,
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
         we can make your website for your server or another fields like portfolio & cv & ecommerce & more...
