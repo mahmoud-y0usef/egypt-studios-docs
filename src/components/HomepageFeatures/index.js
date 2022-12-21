@@ -4,33 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Software',
+    Svg: require('@site/static/img/System-Software.jpg').default,
     description: (
       <>
-        Welcome to Egypt Studio
-      The goal: programming new things that affect the community of the five or more, and other things
+        we can build your software programm in other fields
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Game Developer & fivem Developer Scripts',
+    Svg: require('@site/static/img/game-developer').default,
     description: (
       <>
-        We have end support for any script other than our own script that we are making from scratch
-      We have also placed support only for monthly subscribers to the channel in order for them to receive a sufficient amount of support
-      Stay tuned for our scripts coming soon, including all the policies in a completely different way"
+        we can make your own game design and game server , we can build fivem scripts from zero in your server 
       </>
     ),
   },
   {
-    title: 'Powered by egypt studios',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Web Developer',
+    Svg: require('@site/static/img/web-developer').default,
     description: (
       <>
-        Welcome to Egypt Studio
-      The goal: programming new things that affect the community of the five or more, and other things
+        we can make your website for your server or another fields like portfolio & cv & ecommerce & more...
       </>
     ),
   },
