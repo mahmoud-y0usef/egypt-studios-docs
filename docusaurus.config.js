@@ -70,7 +70,6 @@ const config = {
             label: 'esx scripts',
           },
           {
-            type: 'doc',
             position: 'left',
             label: 'qb scripts',
             to:'/docs1'
