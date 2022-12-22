@@ -85,6 +85,7 @@ const config = {
           // },
         ],
       },
+      plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
       algolia: {
         // The application ID provided by Algolia
         appId: 'YMC28MTSX5S',
