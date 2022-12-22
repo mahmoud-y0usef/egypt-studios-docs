@@ -71,23 +71,9 @@ export default {
     },
     "plugins": [
       [
-        "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\node_modules\\@cmfcmf\\docusaurus-search-local\\lib\\server\\index.js",
+        "C:\\Users\\mahmo\\node_modules\\@cmfcmf\\docusaurus-search-local",
         {
-          "indexDocs": true,
-          "indexDocSidebarParentCategories": 0,
-          "indexBlog": true,
-          "indexPages": false,
-          "language": "en",
-          "maxSearchResults": 8,
-          "lunr": {
-            "tokenizerSeparator": {},
-            "b": 0.75,
-            "k1": 1.2,
-            "titleBoost": 5,
-            "contentBoost": 1,
-            "tagsBoost": 3,
-            "parentCategoriesBoost": 2
-          }
+          "indexPages": true
         }
       ]
     ],
