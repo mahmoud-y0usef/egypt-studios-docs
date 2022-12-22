@@ -77,6 +77,19 @@ export default {
         }
       ]
     ],
+    "themes": [
+      [
+        "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+        {
+          "indexDocs": true,
+          "indexBlog": true,
+          "indexPages": false,
+          "docsRouteBasePath": "/docs",
+          "blogRouteBasePath": "/blog",
+          "hashed": true
+        }
+      ]
+    ],
     "footer": {
       "style": "dark",
       "links": [
