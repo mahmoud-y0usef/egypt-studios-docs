@@ -32,20 +32,20 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -98,11 +98,15 @@ const config = {
             ],
           },
           {
-            title: 'more',
+            title: 'Donation',
             items: [
               {
-                label: 'blog',
-                to: '/blog',
+                label: 'Paypal',
+                href: 'https://www.paypal.com/paypalme/KonarEG',
+              },
+              {
+                label: 'Ko-fi',
+                href: 'https://ko-fi.com/konarplus/',
               },
             ],
           },
