@@ -69,6 +69,15 @@ export default {
       ],
       "hideOnScroll": false
     },
+    "algolia": {
+      "appId": "YMC28MTSX5S",
+      "apiKey": "758a102919548edbf821795be1f2ccdb",
+      "indexName": "egypt studios",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "footer": {
       "style": "dark",
       "links": [
