@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/rules",
+  "source": "@site/src/pages/rules.md",
+  "title": "rules",
+  "description": "* If you want support in the codes, you must get a subscriber role",
+  "frontMatter": {
+    "slug": "rules",
+    "title": "rules"
+  }
+}

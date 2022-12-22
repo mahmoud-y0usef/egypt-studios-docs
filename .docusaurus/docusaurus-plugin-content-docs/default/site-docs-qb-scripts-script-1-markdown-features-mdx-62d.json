@@ -1,0 +1,26 @@
+{
+  "unversionedId": "qb scripts/script 1/markdown-features",
+  "id": "qb scripts/script 1/markdown-features",
+  "title": "installation",
+  "description": "",
+  "source": "@site/docs/qb scripts/script 1/markdown-features.mdx",
+  "sourceDirName": "qb scripts/script 1",
+  "slug": "/qb scripts/script 1/markdown-features",
+  "permalink": "/docs/qb scripts/script 1/markdown-features",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "script 1",
+    "permalink": "/docs/category/script-1-1"
+  },
+  "next": {
+    "title": "script 2",
+    "permalink": "/docs/category/script-2-1"
+  }
+}

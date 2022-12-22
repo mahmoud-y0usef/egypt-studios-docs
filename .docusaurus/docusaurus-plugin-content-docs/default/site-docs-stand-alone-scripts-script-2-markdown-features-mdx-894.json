@@ -1,0 +1,22 @@
+{
+  "unversionedId": "stand alone scripts/script 2/markdown-features",
+  "id": "stand alone scripts/script 2/markdown-features",
+  "title": "installation",
+  "description": "",
+  "source": "@site/docs/stand alone scripts/script 2/markdown-features.mdx",
+  "sourceDirName": "stand alone scripts/script 2",
+  "slug": "/stand alone scripts/script 2/markdown-features",
+  "permalink": "/docs/stand alone scripts/script 2/markdown-features",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "script 2",
+    "permalink": "/docs/category/script-2-2"
+  }
+}
