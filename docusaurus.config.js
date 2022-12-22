@@ -73,13 +73,6 @@ const config = {
             position: 'left',
             label: 'docs',
           },
-          {
-            // type: 'doc',
-            // docId: 'intro1',
-            position: 'left',
-            to:'/docs1',
-            label: 'docs1',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/rules', label: 'Rules', position: 'left'},
           {
