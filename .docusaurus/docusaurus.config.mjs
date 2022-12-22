@@ -69,19 +69,6 @@ export default {
       ],
       "hideOnScroll": false
     },
-    "themes": [
-      [
-        "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
-        {
-          "indexDocs": true,
-          "indexBlog": true,
-          "indexPages": false,
-          "docsRouteBasePath": "/docs",
-          "blogRouteBasePath": "/blog",
-          "hashed": true
-        }
-      ]
-    ],
     "algolia": {
       "appId": "YMC28MTSX5S",
       "apiKey": "758a102919548edbf821795be1f2ccdb",

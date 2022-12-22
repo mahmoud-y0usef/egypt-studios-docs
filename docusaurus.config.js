@@ -90,28 +90,28 @@ const config = {
       //     indexPages: true
       //   }],
       // ],
-      themes: [
-        // ... Your other themes.
-        [
-          require.resolve("@easyops-cn/docusaurus-search-local"),
-          /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-          ({
-            // ... Your options.
-            indexDocs: true,
-            indexBlog:true,
-            indexPages:false,
-            docsRouteBasePath:"/docs",
-            blogRouteBasePath:"/blog",
-            // `hashed` is recommended as long-term-cache of index file is possible.
-            hashed: true,
-            // For Docs using Chinese, The `language` is recommended to set to:
-            // ```
-            // language: ["en", "zh"],
-            // ```
+      // themes: [
+      //   // ... Your other themes.
+      //   [
+      //     require.resolve("@easyops-cn/docusaurus-search-local"),
+      //     /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      //     ({
+      //       // ... Your options.
+      //       indexDocs: true,
+      //       indexBlog:true,
+      //       indexPages:false,
+      //       docsRouteBasePath:"/docs",
+      //       blogRouteBasePath:"/blog",
+      //       // `hashed` is recommended as long-term-cache of index file is possible.
+      //       hashed: true,
+      //       // For Docs using Chinese, The `language` is recommended to set to:
+      //       // ```
+      //       // language: ["en", "zh"],
+      //       // ```
 
-          }),
-        ],
-      ],
+      //     }),
+      //   ],
+      // ],
       algolia: {
         // The application ID provided by Algolia
         appId: 'YMC28MTSX5S',

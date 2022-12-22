@@ -1,40 +1,33 @@
 new Crawler({
-    appId: 'YMC28MTSX5S',
-    apiKey: 'c2b00c21ab6f10b4a033e818163c3004',
+    appId: 'MC28MTSX5S',
+    apiKey: '758a102919548edbf821795be1f2ccdb',
+    indexPrefix: 'crawler_',
     rateLimit: 8,
     maxDepth: 10,
     startUrls: ['https://egypt-studios-docs.vercel.app/'],
-    sitemaps: ['https://egypt-studios-docs.vercel.app/sitemap.xml'],
-    ignoreCanonicalTo: true,
-    discoveryPatterns: ['https://egypt-studios-docs.vercel.app/'],
+    renderJavaScript: false,
+    sitemaps: [],
+    ignoreCanonicalTo: false,
+    discoveryPatterns: ['https://egypt-studios-docs.vercel.app/**'],
     actions: [
       {
         indexName: 'egypt studios',
-        pathsToMatch: ['https://egypt-studios-docs.vercel.app/'],
-        recordExtractor: ({ $, helpers }) => {
-          // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
-          const lvl0 =
-            $(
-              '.menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active'
-            )
-              .last()
-              .text() || 'Documentation';
-  
+        pathsToMatch: ['https://egypt-studios-docs.vercel.app/**'],
+        recordExtractor: ({ helpers }) => {
           return helpers.docsearch({
             recordProps: {
+              lvl1: ['header h1', 'article h1', 'main h1', 'h1', 'head > title'],
+              content: ['article p, article li', 'main p, main li', 'p, li'],
               lvl0: {
                 selectors: '',
-                defaultValue: lvl0,
+                defaultValue: 'Documentation',
               },
-              lvl1: ['header h1', 'article h1'],
-              lvl2: 'article h2',
-              lvl3: 'article h3',
-              lvl4: 'article h4',
-              lvl5: 'article h5, article td:first-child',
-              lvl6: 'article h6',
-              content: 'article p, article li, article td:last-child',
+              lvl2: ['article h2', 'main h2', 'h2'],
+              lvl3: ['article h3', 'main h3', 'h3'],
+              lvl4: ['article h4', 'main h4', 'h4'],
+              lvl5: ['article h5', 'main h5', 'h5'],
+              lvl6: ['article h6', 'main h6', 'h6'],
             },
-            indexHeadings: true,
             aggregateContent: true,
             recordVersion: 'v3',
           });
@@ -43,13 +36,7 @@ new Crawler({
     ],
     initialIndexSettings: {
       YOUR_INDEX_NAME: {
-        attributesForFaceting: [
-          'type',
-          'lang',
-          'language',
-          'version',
-          'docusaurus_tag',
-        ],
+        attributesForFaceting: ['type', 'lang'],
         attributesToRetrieve: [
           'hierarchy',
           'content',
@@ -97,7 +84,6 @@ new Crawler({
         advancedSyntax: true,
         attributeCriteriaComputedByMinProximity: true,
         removeWordsIfNoResults: 'allOptional',
-        separatorsToIndex: '_',
       },
     },
   });
