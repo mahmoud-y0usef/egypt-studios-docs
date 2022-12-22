@@ -36,8 +36,8 @@
                 "permalink": "/docs/category/script-1"
               },
               "next": {
-                "title": "script 1",
-                "permalink": "/docs/category/script-1-1"
+                "title": "script 2",
+                "permalink": "/docs/category/script-2"
               }
             },
             {
@@ -52,10 +52,7 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 2",
@@ -63,7 +60,7 @@
               },
               "next": {
                 "title": "script 1",
-                "permalink": "/docs/category/script-1"
+                "permalink": "/docs/category/script-1-1"
               }
             },
             {
@@ -84,8 +81,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "script 2",
-                "permalink": "/docs/category/script-2"
+                "title": "script 1",
+                "permalink": "/docs/category/script-1"
               }
             },
             {
@@ -100,10 +97,7 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 1",
@@ -126,10 +120,7 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 9,
-              "frontMatter": {
-                "sidebar_position": 9
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 2",
@@ -152,10 +143,7 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 11,
-              "frontMatter": {
-                "sidebar_position": 11
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 1",
@@ -178,10 +166,7 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 13,
-              "frontMatter": {
-                "sidebar_position": 13
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 2",
@@ -204,23 +189,6 @@
                 "items": [
                   {
                     "type": "category",
-                    "label": "script 2",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "esx scripts/script 2/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-2",
-                      "permalink": "/docs/category/script-2"
-                    }
-                  },
-                  {
-                    "type": "category",
                     "label": "script 1",
                     "collapsible": true,
                     "collapsed": true,
@@ -234,6 +202,23 @@
                       "type": "generated-index",
                       "slug": "/category/script-1",
                       "permalink": "/docs/category/script-1"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "script 2",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "esx scripts/script 2/markdown-features"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/script-2",
+                      "permalink": "/docs/category/script-2"
                     }
                   }
                 ]
@@ -414,7 +399,6 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
-  "docusaurus-theme-search-algolia": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

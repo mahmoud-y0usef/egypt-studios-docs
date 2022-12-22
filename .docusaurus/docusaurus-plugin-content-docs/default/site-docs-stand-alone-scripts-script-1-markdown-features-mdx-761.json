@@ -10,10 +10,7 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 11,
-  "frontMatter": {
-    "sidebar_position": 11
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "script 1",

@@ -23,21 +23,6 @@
         "items": [
           {
             "type": "category",
-            "label": "script 2",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "installation",
-                "href": "/docs/esx scripts/script 2/markdown-features",
-                "docId": "esx scripts/script 2/markdown-features"
-              }
-            ],
-            "href": "/docs/category/script-2"
-          },
-          {
-            "type": "category",
             "label": "script 1",
             "collapsible": true,
             "collapsed": true,
@@ -50,6 +35,21 @@
               }
             ],
             "href": "/docs/category/script-1"
+          },
+          {
+            "type": "category",
+            "label": "script 2",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/esx scripts/script 2/markdown-features",
+                "docId": "esx scripts/script 2/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-2"
           }
         ]
       },

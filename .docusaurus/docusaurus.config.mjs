@@ -69,15 +69,28 @@ export default {
       ],
       "hideOnScroll": false
     },
-    "algolia": {
-      "appId": "YMC28MTSX5S",
-      "apiKey": "758a102919548edbf821795be1f2ccdb",
-      "indexName": "egypt studios",
-      "contextualSearch": true,
-      "externalUrlRegex": "external\\.com|domain\\.com",
-      "searchParameters": {},
-      "searchPagePath": "search"
-    },
+    "plugins": [
+      [
+        "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\node_modules\\@cmfcmf\\docusaurus-search-local\\lib\\server\\index.js",
+        {
+          "indexDocs": true,
+          "indexDocSidebarParentCategories": 0,
+          "indexBlog": true,
+          "indexPages": false,
+          "language": "en",
+          "maxSearchResults": 8,
+          "lunr": {
+            "tokenizerSeparator": {},
+            "b": 0.75,
+            "k1": 1.2,
+            "titleBoost": 5,
+            "contentBoost": 1,
+            "tagsBoost": 3,
+            "parentCategoriesBoost": 2
+          }
+        }
+      ]
+    ],
     "footer": {
       "style": "dark",
       "links": [

@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "script 2",
-    "permalink": "/docs/category/script-2"
+    "title": "script 1",
+    "permalink": "/docs/category/script-1"
   }
 }
