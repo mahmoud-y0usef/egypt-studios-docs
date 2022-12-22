@@ -85,11 +85,11 @@ const config = {
           // },
         ],
       },
-      plugins: [
-        [require("path").join(__dirname, "..", "..", "node_modules", "@cmfcmf", "docusaurus-search-local"), {
-          indexPages: true
-        }],
-      ],
+      // plugins: [
+      //   [require("path").join(__dirname, "..", "..", "node_modules", "@cmfcmf", "docusaurus-search-local"), {
+      //     indexPages: true
+      //   }],
+      // ],
       themes: [
         // ... Your other themes.
         [
@@ -108,33 +108,33 @@ const config = {
             // ```
             // language: ["en", "zh"],
             // ```
-            
+
           }),
         ],
       ],
-      // algolia: {
-      //   // The application ID provided by Algolia
-      //   appId: 'YMC28MTSX5S',
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'YMC28MTSX5S',
   
-      //   // Public API key: it is safe to commit it
-      //   apiKey: '758a102919548edbf821795be1f2ccdb',
+        // Public API key: it is safe to commit it
+        apiKey: '758a102919548edbf821795be1f2ccdb',
   
-      //   indexName: 'egypt studios',
+        indexName: 'egypt studios',
   
-      //   // Optional: see doc section below
-      //   contextualSearch: true,
+        // Optional: see doc section below
+        contextualSearch: true,
   
-      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      //   externalUrlRegex: 'external\\.com|domain\\.com',
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
   
-      //   // Optional: Algolia search parameters
-      //   searchParameters: {},
+        // Optional: Algolia search parameters
+        searchParameters: {},
   
-      //   // Optional: path for search page that enabled by default (`false` to disable it)
-      //   searchPagePath: 'search',
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
   
-      //   //... other Algolia params
-      // },
+        //... other Algolia params
+      },
       footer: {
         style: 'dark',
         links: [
