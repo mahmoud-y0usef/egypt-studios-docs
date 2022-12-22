@@ -29,18 +29,15 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 1",
                 "permalink": "/docs/category/script-1"
               },
               "next": {
-                "title": "script 2",
-                "permalink": "/docs/category/script-2"
+                "title": "script 1",
+                "permalink": "/docs/category/script-1-1"
               }
             },
             {
@@ -66,7 +63,7 @@
               },
               "next": {
                 "title": "script 1",
-                "permalink": "/docs/category/script-1-1"
+                "permalink": "/docs/category/script-1"
               }
             },
             {
@@ -87,8 +84,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "script 1",
-                "permalink": "/docs/category/script-1"
+                "title": "script 2",
+                "permalink": "/docs/category/script-2"
               }
             },
             {
@@ -207,23 +204,6 @@
                 "items": [
                   {
                     "type": "category",
-                    "label": "script 1",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "esx scripts/script 1/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-1",
-                      "permalink": "/docs/category/script-1"
-                    }
-                  },
-                  {
-                    "type": "category",
                     "label": "script 2",
                     "collapsible": true,
                     "collapsed": true,
@@ -237,6 +217,23 @@
                       "type": "generated-index",
                       "slug": "/category/script-2",
                       "permalink": "/docs/category/script-2"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "script 1",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "esx scripts/script 1/markdown-features"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/script-1",
+                      "permalink": "/docs/category/script-1"
                     }
                   }
                 ]

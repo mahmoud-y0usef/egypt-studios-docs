@@ -46,13 +46,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/script-1",
-              "path": "/docs/category/script-1",
+              "id": "/category/script-2",
+              "path": "/docs/category/script-2",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/script-2",
-              "path": "/docs/category/script-2",
+              "id": "/category/script-1",
+              "path": "/docs/category/script-1",
               "sidebar": "tutorialSidebar"
             },
             {
