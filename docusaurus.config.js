@@ -73,6 +73,12 @@ const config = {
             position: 'left',
             label: 'docs',
           },
+          {
+            type: 'doc',
+            to:'/docs1',
+            position: 'left',
+            label: 'docs1',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/rules', label: 'Rules', position: 'left'},
           {
