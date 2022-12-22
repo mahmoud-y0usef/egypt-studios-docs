@@ -74,8 +74,8 @@ const config = {
             label: 'docs',
           },
           {
-            type: 'doc',
-            docId: 'intro1',
+            // type: 'doc',
+            // docId: 'intro1',
             position: 'left',
             to:'/docs1',
             label: 'docs1',
