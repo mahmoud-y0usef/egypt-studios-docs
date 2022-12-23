@@ -1,6 +1,6 @@
 new Crawler({
     appId: 'MC28MTSX5S',
-    apiKey: '758a102919548edbf821795be1f2ccdb',
+    apiKey: 'c2b00c21ab6f10b4a033e818163c3004',
     indexPrefix: 'crawler_',
     rateLimit: 8,
     maxDepth: 10,
