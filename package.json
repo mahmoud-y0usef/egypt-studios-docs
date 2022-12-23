@@ -17,6 +17,7 @@
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^0.11.0",
     "@docusaurus/core": "2.2.0",
+    "@docusaurus/plugin-content-docs": "^2.2.0",
     "@docusaurus/preset-classic": "2.2.0",
     "@docusaurus/theme-search-algolia": "^2.2.0",
     "@easyops-cn/docusaurus-search-local": "^0.29.0",

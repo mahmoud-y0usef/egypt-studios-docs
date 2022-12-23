@@ -20,6 +20,26 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-api',
+        path: 'docs-api',
+        routeBasePath: 'docs-api',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-system',
+        path: 'docs-system',
+        routeBasePath: 'docs-system',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+],
   themeConfig: {
     metadata: [{property: 'og:url', content: 'https://egypt-studios-docs.vercel.app/'}],
     metadata: [{property: 'og:type', content: 'website'}],
@@ -28,6 +48,7 @@ module.exports = {
     metadata: [{property: 'og:description', content: 'programming new things that affect the community of the fivem or more'}],
     metadata: [{property: 'og:image', content: 'https://egypt-studios-docs.vercel.app/img/egypt-studios.png'}],
     navbar: {
+      hideOnScroll: true,
       title: 'egypt studios',
       logo: {
         alt: 'egypt studios',
@@ -35,10 +56,22 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
+          to: '/docs/intro',    // ./docs/Intro.md
+          label: 'esx scripts',
           position: 'left',
-          label: 'docs',
+          activeBaseRegex: `/docs/`,
+        },
+        {
+          to: '/docs-api/intro',    // ./docs-api/Intro.md
+          label: 'qb scripts',
+          position: 'left',
+          activeBaseRegex: `/docs-api/`,
+        },
+        {
+          to: '/docs-system/intro',  // ./docs-system/Intro.md
+          label: 'standalone scripts',
+          position: 'left',
+          activeBaseRegex: `/docs-system/`,
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/rules', label: 'Rules', position: 'left'},
@@ -90,10 +123,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: 'docs',
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/easyops-cn/docusaurus-search-example/edit/master/',
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'],
         },
         blog: {
           showReadingTime: true,
