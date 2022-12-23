@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://egypt-studios-docs.vercel.app/blog</id>
+    <title>docs Blog</title>
+    <updated>2021-08-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://egypt-studios-docs.vercel.app/blog"/>
+    <subtitle>docs Blog</subtitle>
+    <icon>https://egypt-studios-docs.vercel.app/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://egypt-studios-docs.vercel.app/blog/welcome"/>
+        <updated>2021-08-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[soon]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="soon">soon<a class="hash-link" href="#soon" title="Direct link to heading">​</a></h3>]]></content>
+        <author>
+            <name>Mahmoud Yousef</name>
+            <uri>https://github.com/mahmoud-y0usef</uri>
+        </author>
+        <author>
+            <name>Ahmed Yousef</name>
+            <uri>https://github.com/ahmed608</uri>
+        </author>
+    </entry>
+</feed>

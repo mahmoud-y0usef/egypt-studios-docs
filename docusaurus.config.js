@@ -112,29 +112,36 @@ const config = {
       //     }),
       //   ],
       // ],
-      algolia: {
-        // The application ID provided by Algolia
-        appId: 'YMC28MTSX5S',
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: 'YMC28MTSX5S',
   
-        // Public API key: it is safe to commit it
-        apiKey: '758a102919548edbf821795be1f2ccdb',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '758a102919548edbf821795be1f2ccdb',
   
-        indexName: 'egypt studios',
+      //   indexName: 'egypt studios',
   
-        // Optional: see doc section below
-        contextualSearch: true,
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
   
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'https://egypt-studios-docs.vercel.app/',
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'https://egypt-studios-docs.vercel.app/',
   
-        // Optional: Algolia search parameters
-        searchParameters: {},
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
   
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
   
-        //... other Algolia params
-      },
+      //   //... other Algolia params
+      // },
+      plugins: [[ require.resolve('docusaurus-lunr-search'), {
+        languages: ['en', 'de'], // language codes
+        indexBaseUrl: true,
+        excludeRoutes: [
+          'docs/changelogs/**/*', // exclude changelogs from indexing
+      ]
+      }]],
       footer: {
         style: 'dark',
         links: [

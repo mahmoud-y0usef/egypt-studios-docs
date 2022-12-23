@@ -69,15 +69,21 @@ export default {
       ],
       "hideOnScroll": false
     },
-    "algolia": {
-      "appId": "YMC28MTSX5S",
-      "apiKey": "758a102919548edbf821795be1f2ccdb",
-      "indexName": "egypt studios",
-      "contextualSearch": true,
-      "externalUrlRegex": "https://egypt-studios-docs.vercel.app/",
-      "searchParameters": {},
-      "searchPagePath": "search"
-    },
+    "plugins": [
+      [
+        "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\node_modules\\docusaurus-lunr-search\\src\\index.js",
+        {
+          "languages": [
+            "en",
+            "de"
+          ],
+          "indexBaseUrl": true,
+          "excludeRoutes": [
+            "docs/changelogs/**/*"
+          ]
+        }
+      ]
+    ],
     "footer": {
       "style": "dark",
       "links": [
