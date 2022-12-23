@@ -4,11 +4,11 @@ module.exports = {
   title: "Docusaurus Search",
   tagline:
     "An offline/local search example using @easyops-cn/docusaurus-search-local",
-  url: "https://easyops-cn.github.io",
+  url: "https://egypt-studios-docs.vercel.app/",
   baseUrl: buildType === "preview" ? "/" : "/docusaurus-search-local/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "easyops-cn", // Usually your GitHub org/user name.
+  organizationName: "egypt studios", // Usually your GitHub org/user name.
   projectName: "docusaurus-search-local", // Usually your repo name.
   i18n: {
     defaultLocale: "en",
