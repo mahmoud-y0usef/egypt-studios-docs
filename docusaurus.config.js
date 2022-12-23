@@ -1,127 +1,131 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const buildType = process.env.BUILD_TYPE;
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
-  title: 'docs',
-  tagline: `Welcome to Egypt Studio 
-    The goal : programming new things that affect the community of the fivem or more, and other things`,
-  url: 'https://egypt-studios-docs.vercel.app/',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.png',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'egypt studios', // Usually your GitHub org/user name.
-  projectName: 'egypt studios documintation', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+module.exports = {
+  title: "Docusaurus Search",
+  tagline:
+    "An offline/local search example using @easyops-cn/docusaurus-search-local",
+  url: "https://easyops-cn.github.io",
+  baseUrl: buildType === "preview" ? "/" : "/docusaurus-search-local/",
+  onBrokenLinks: "throw",
+  favicon: "img/favicon.ico",
+  organizationName: "easyops-cn", // Usually your GitHub org/user name.
+  projectName: "docusaurus-search-local", // Usually your repo name.
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en", ...(buildType === "i18n" ? ["zh-CN", "zh-TW"] : [])],
   },
-
-  
+  themeConfig: {
+    navbar: {
+      title: "Docusaurus Search",
+      logo: {
+        alt: "My Site Logo",
+        src: "img/logo.svg",
+      },
+      items: [
+        {
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
+        },
+        { to: "blog", label: "Blog", position: "left" },
+        {
+          href: "https://github.com/easyops-cn/docusaurus-search-local",
+          label: "GitHub",
+          position: "right",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Style Guide",
+              to: "docs/",
+            },
+            {
+              label: "Second Doc",
+              to: "docs/doc2/",
+            },
+          ],
+        },
+        {
+          title: "Community",
+          items: [
+            {
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+            },
+            {
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
+            },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/docusaurus",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Blog",
+              to: "blog",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/easyops-cn/docusaurus-search-local",
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    },
+  },
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      "@docusaurus/preset-classic",
+      {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            "https://github.com/easyops-cn/docusaurus-search-local/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            "https://github.com/easyops-cn/docusaurus-search-local/edit/master/website/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
       }),
     ],
   ],
-
-  themeConfig:
-  
-  
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    
-    ({
-      navbar: {
-        title: 'egypt studios',
-        logo: {
-          alt: 'egypt studios',
-          src: 'img/logo.png',
-        },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'docs',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/rules', label: 'Rules', position: 'left'},
-          {
-            href: 'https://egyptstudio.tebex.io/category/2031240',
-            label: 'Shop Now',
-            position: 'right',
-          },
-          // {
-          //   type: 'localeDropdown',
-          // },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Society',
-            items: [
-              {
-                label: 'discord',
-                href: 'https://discord.gg/Q6VpZTueKF',
-              },
-              {
-                label: 'youtube',
-                href: 'https://www.youtube.com/c/Konar1',
-              },
-            ],
-          },
-          {
-            title: 'Donation',
-            items: [
-              {
-                label: 'Paypal',
-                href: 'https://www.paypal.com/paypalme/KonarEG',
-              },
-              {
-                label: 'Ko-fi',
-                href: 'https://ko-fi.com/konarplus/',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} 💗 egypt studios `,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
 };
-
-module.exports = config;
