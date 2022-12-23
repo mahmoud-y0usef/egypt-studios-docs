@@ -1,3 +1,9 @@
+// module.exports = {
+//   someSidebar: {
+//     Docusaurus: ['doc1', 'doc2', 'doc3'],
+//     Features: ['mdx'],
+//   },
+// };
 /**
  * Creating a sidebar enables you to:
  - create an ordered group of docs
@@ -19,10 +25,12 @@ const sidebars = {
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
+    'intro',
+    'hello',
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['hello'],
+      items: ['tutorial-basics/create-a-document'],
     },
   ],
    */

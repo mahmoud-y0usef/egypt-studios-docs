@@ -1,0 +1,15 @@
+{
+  "title": "script 1",
+  "slug": "/category/script-1",
+  "permalink": "/docusaurus-search-example/docs/category/script-1",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/docusaurus-search-example/docs/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/docusaurus-search-example/docs/esx scripts/script 1/markdown-features"
+    }
+  }
+}

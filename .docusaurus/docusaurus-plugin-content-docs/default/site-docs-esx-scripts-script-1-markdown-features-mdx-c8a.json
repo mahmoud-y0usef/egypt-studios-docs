@@ -1,0 +1,23 @@
+{
+  "unversionedId": "esx scripts/script 1/markdown-features",
+  "id": "esx scripts/script 1/markdown-features",
+  "title": "installation",
+  "description": "",
+  "source": "@site/docs/esx scripts/script 1/markdown-features.mdx",
+  "sourceDirName": "esx scripts/script 1",
+  "slug": "/esx scripts/script 1/markdown-features",
+  "permalink": "/docs/esx scripts/script 1/markdown-features",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "script 1",
+    "permalink": "/docs/category/script-1"
+  },
+  "next": {
+    "title": "script 2",
+    "permalink": "/docs/category/script-2"
+  }
+}

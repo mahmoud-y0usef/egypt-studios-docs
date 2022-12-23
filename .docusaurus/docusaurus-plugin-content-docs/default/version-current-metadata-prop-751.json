@@ -1,0 +1,177 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "esx scripts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "script 1",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/esx scripts/script 1/markdown-features",
+                "docId": "esx scripts/script 1/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-1"
+          },
+          {
+            "type": "category",
+            "label": "script 2",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/esx scripts/script 2/markdown-features",
+                "docId": "esx scripts/script 2/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-2"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "qb scripts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "script 1",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/qb scripts/script 1/markdown-features",
+                "docId": "qb scripts/script 1/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-1-1"
+          },
+          {
+            "type": "category",
+            "label": "script 2",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/qb scripts/script 2/markdown-features",
+                "docId": "qb scripts/script 2/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-2-1"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "stand alone scripts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "script 1",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/stand alone scripts/script 1/markdown-features",
+                "docId": "stand alone scripts/script 1/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-1-2"
+          },
+          {
+            "type": "category",
+            "label": "script 2",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "installation",
+                "href": "/docs/stand alone scripts/script 2/markdown-features",
+                "docId": "stand alone scripts/script 2/markdown-features"
+              }
+            ],
+            "href": "/docs/category/script-2-2"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "esx scripts/script 1/markdown-features": {
+      "id": "esx scripts/script 1/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "esx scripts/script 2/markdown-features": {
+      "id": "esx scripts/script 2/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "intro",
+      "description": "welcome",
+      "sidebar": "tutorialSidebar"
+    },
+    "qb scripts/script 1/markdown-features": {
+      "id": "qb scripts/script 1/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "qb scripts/script 2/markdown-features": {
+      "id": "qb scripts/script 2/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "stand alone scripts/script 1/markdown-features": {
+      "id": "stand alone scripts/script 1/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "stand alone scripts/script 2/markdown-features": {
+      "id": "stand alone scripts/script 2/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

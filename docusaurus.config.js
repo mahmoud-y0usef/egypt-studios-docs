@@ -1,117 +1,102 @@
-const buildType = process.env.BUILD_TYPE;
-
 module.exports = {
-  title: "Docusaurus Search",
-  tagline:
-    "An offline/local search example using @easyops-cn/docusaurus-search-local",
-  url: "https://egypt-studios-docs.vercel.app/",
-  baseUrl: buildType === "preview" ? "/" : "/docusaurus-search-local/",
-  onBrokenLinks: "throw",
-  favicon: "img/favicon.ico",
-  organizationName: "egypt studios", // Usually your GitHub org/user name.
-  projectName: "docusaurus-search-local", // Usually your repo name.
+  title: 'docs',
+  tagline: `Welcome to Egypt Studio 
+    The goal : programming new things that affect the community of the fivem or more, and other things`,
+  url: 'https://egypt-studios-docs.vercel.app/',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/logo.png',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'egypt studios', // Usually your GitHub org/user name.
+  projectName: 'egypt studios documintation', // Usually your repo name.
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", ...(buildType === "i18n" ? ["zh-CN", "zh-TW"] : [])],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
   themeConfig: {
     navbar: {
-      title: "Docusaurus Search",
+      title: 'egypt studios',
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: 'egypt studios',
+        src: 'img/logo.png',
       },
       items: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'docs',
         },
-        { to: "blog", label: "Blog", position: "left" },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/rules', label: 'Rules', position: 'left'},
         {
-          href: "https://github.com/easyops-cn/docusaurus-search-local",
-          label: "GitHub",
-          position: "right",
+          href: 'https://egyptstudio.tebex.io/category/2031240',
+          label: 'Shop Now',
+          position: 'right',
         },
-        {
-          type: "localeDropdown",
-          position: "right",
-        },
-        {
-          type: "docsVersionDropdown",
-          position: "right",
-        },
+        // {
+        //   type: 'localeDropdown',
+        // },
       ],
     },
     footer: {
-      style: "dark",
+      style: 'dark',
       links: [
         {
-          title: "Docs",
+          title: 'Society',
           items: [
             {
-              label: "Style Guide",
-              to: "docs/",
+              label: 'discord',
+              href: 'https://discord.gg/Q6VpZTueKF',
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: 'youtube',
+              href: 'https://www.youtube.com/c/Konar1',
             },
           ],
         },
         {
-          title: "Community",
+          title: 'Donation',
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: 'Paypal',
+              href: 'https://www.paypal.com/paypalme/KonarEG',
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/easyops-cn/docusaurus-search-local",
+              label: 'Ko-fi',
+              href: 'https://ko-fi.com/konarplus/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 💗 egypt studios `,
     },
   },
   presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/easyops-cn/docusaurus-search-local/edit/master/website/",
+          // editUrl:
+          //   'https://github.com/easyops-cn/docusaurus-search-example/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/easyops-cn/docusaurus-search-local/edit/master/website/",
+          // editUrl:
+          //   'https://github.com/easyops-cn/docusaurus-search-example/edit/master/blog/',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
@@ -119,13 +104,12 @@ module.exports = {
   themes: [
     [
       "@easyops-cn/docusaurus-search-local",
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
+      {
         hashed: true,
-        language: ["en", "zh"],
+        language: ["en"],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
-      }),
-    ],
-  ],
+      }
+    ]
+  ]
 };

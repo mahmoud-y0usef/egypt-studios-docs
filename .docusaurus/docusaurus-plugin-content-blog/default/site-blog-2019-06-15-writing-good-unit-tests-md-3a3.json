@@ -1,0 +1,30 @@
+{
+  "permalink": "/docusaurus-search-example/zh-TW/blog/writing-good-unit-tests",
+  "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/blog/blog/2019-06-15-writing-good-unit-tests.md",
+  "source": "@site/blog/2019-06-15-writing-good-unit-tests.md",
+  "title": "编写良好的单元测试",
+  "description": "本文转载自 https://wangshenwei.com/writing-good-unit-tests/ 。",
+  "date": "2019-06-15T00:00:00.000Z",
+  "formattedDate": "2019年6月15日",
+  "tags": [],
+  "readingTime": 7.48,
+  "truncated": false,
+  "authors": [
+    {
+      "name": "Wang Shenwei",
+      "url": "https://github.com/weareoutman",
+      "imageURL": "https://avatars2.githubusercontent.com/u/2338946?s=460&v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "writing-good-unit-tests",
+    "title": "编写良好的单元测试",
+    "author": "Wang Shenwei",
+    "author_url": "https://github.com/weareoutman",
+    "author_image_url": "https://avatars2.githubusercontent.com/u/2338946?s=460&v=4"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/docusaurus-search-example/zh-TW/blog/welcome"
+  }
+}

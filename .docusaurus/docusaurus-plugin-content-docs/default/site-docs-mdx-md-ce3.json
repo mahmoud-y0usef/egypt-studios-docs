@@ -1,0 +1,23 @@
+{
+  "unversionedId": "mdx",
+  "id": "mdx",
+  "title": "Powered by MDX",
+  "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+  "source": "@site/docs/mdx.md",
+  "sourceDirName": ".",
+  "slug": "/mdx",
+  "permalink": "/docusaurus-search-example/zh-TW/docs/mdx",
+  "draft": false,
+  "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/mdx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mdx",
+    "title": "Powered by MDX"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "This is Document Number 3",
+    "permalink": "/docusaurus-search-example/zh-TW/docs/doc3"
+  }
+}
