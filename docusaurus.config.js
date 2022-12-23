@@ -21,6 +21,12 @@ module.exports = {
     locales: ['en'],
   },
   themeConfig: {
+    metadata: [{property: 'og:url', content: 'https://egypt-studios-docs.vercel.app/'}],
+    metadata: [{property: 'og:type', content: 'website'}],
+    metadata: [{property: 'og:site_name', content: 'egypt studios'}],
+    metadata: [{property: 'og:title', content: 'egypt studios development'}],
+    metadata: [{property: 'og:description', content: 'programming new things that affect the community of the fivem or more'}],
+    metadata: [{property: 'og:image', content: 'https://egypt-studios-docs.vercel.app/img/egypt-studios.png'}],
     navbar: {
       title: 'egypt studios',
       logo: {
