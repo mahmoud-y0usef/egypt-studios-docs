@@ -22,20 +22,32 @@ module.exports = {
   },
   plugins: [
     [
+      require.resolve("docusaurus-plugin-search-local"),
+      {
+        indexDocs:true,
+        indexBlog:true,
+        indexPages:false,
+        docsRouteBasePath:"/",
+        blogRouteBasePath:"/blog",
+        hashed:false,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'docs-api',
-        path: 'docs-api',
-        routeBasePath: 'docs-api',
+        id: 'qbscripts',
+        path: 'qbscripts',
+        routeBasePath: 'qbscripts',
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'docs-system',
-        path: 'docs-system',
-        routeBasePath: 'docs-system',
+        id: 'standalonescripts',
+        path: 'standalonescripts',
+        routeBasePath: 'standalonescripts',
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
@@ -56,23 +68,31 @@ module.exports = {
       },
       items: [
         {
-          to: '/docs/intro',    // ./docs/Intro.md
-          label: 'esx scripts',
+          type: 'dropdown',
+          label: 'FiveM',
           position: 'left',
-          activeBaseRegex: `/docs/`,
+          items: [
+            {
+              to: '/docs/intro',    
+              label: 'esx scripts',
+              // position: 'left',
+              activeBaseRegex: `/docs/`,
+            },
+            {
+              to: '/qbscripts/intro', 
+              label: 'qb scripts',
+              // position: 'left',
+              activeBaseRegex: `/qbscripts/`,
+            },
+            {
+              to: '/standalonescripts/intro',  // ./docs-system/Intro.md
+              label: 'standalone scripts',
+              // position: 'left',
+              activeBaseRegex: `/standalonescripts/`,
+            },
+          ],
         },
-        {
-          to: '/docs-api/intro',    // ./docs-api/Intro.md
-          label: 'qb scripts',
-          position: 'left',
-          activeBaseRegex: `/docs-api/`,
-        },
-        {
-          to: '/docs-system/intro',  // ./docs-system/Intro.md
-          label: 'standalone scripts',
-          position: 'left',
-          activeBaseRegex: `/docs-system/`,
-        },
+        
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/rules', label: 'Rules', position: 'left'},
         {
@@ -141,15 +161,15 @@ module.exports = {
       },
     ],
   ],
-  themes: [
-    [
-      "@easyops-cn/docusaurus-search-local",
-      {
-        hashed: true,
-        language: ["en"],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      }
-    ]
-  ]
+  // themes: [
+  //   [
+  //     "@easyops-cn/docusaurus-search-local",
+  //     {
+  //       hashed: true,
+  //       language: ["en"],
+  //       highlightSearchTermsOnTargetPage: true,
+  //       explicitSearchResultPath: true,
+  //     }
+  //   ]
+  // ]
 };

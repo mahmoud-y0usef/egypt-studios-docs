@@ -1,4 +1,24 @@
 {
+  "docusaurus-plugin-search-local": {
+    "default": {
+      "externalSearchSources": [],
+      "removeDefaultStopWordFilter": false,
+      "searchResultContextMaxLength": 50,
+      "searchResultLimits": 5,
+      "translations": {
+        "search_placeholder": "Search",
+        "see_all_results": "See all results",
+        "no_results": "No results.",
+        "search_results_for": "Search results for \"{{ keyword }}\"",
+        "search_the_documentation": "Search the documentation",
+        "count_documents_found_plural": "{{ count }} documents found",
+        "count_documents_found": "{{ count }} document found",
+        "no_documents_were_found": "No documents were found"
+      },
+      "highlightSearchTermsOnTargetPage": true,
+      "indexHash": null
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",
@@ -11,38 +31,18 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "esx scripts/script 1/markdown-features",
-              "path": "/docs/esx scripts/script 1/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "esx scripts/script 2/markdown-features",
-              "path": "/docs/esx scripts/script 2/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "qb scripts/script 1/markdown-features",
-              "path": "/docs/qb scripts/script 1/markdown-features",
+              "id": "script 1/markdown-features",
+              "path": "/docs/script 1/script 1",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "qb scripts/script 2/markdown-features",
-              "path": "/docs/qb scripts/script 2/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "stand alone scripts/script 1/markdown-features",
-              "path": "/docs/stand alone scripts/script 1/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "stand alone scripts/script 2/markdown-features",
-              "path": "/docs/stand alone scripts/script 2/markdown-features",
+              "id": "script 2/markdown-features",
+              "path": "/docs/script 2/script 2",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -54,26 +54,6 @@
               "id": "/category/script-2",
               "path": "/docs/category/script-2",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-1-1",
-              "path": "/docs/category/script-1-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-2-1",
-              "path": "/docs/category/script-2-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-1-2",
-              "path": "/docs/category/script-1-2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-2-2",
-              "path": "/docs/category/script-2-2",
-              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
@@ -81,6 +61,104 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "qbscripts": {
+      "path": "/qbscripts",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/qbscripts",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/qbscripts/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "script 1/markdown-features",
+              "path": "/qbscripts/script 1/script 1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "script 2/markdown-features",
+              "path": "/qbscripts/script 2/script 2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/script-1",
+              "path": "/qbscripts/category/script-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/script-2",
+              "path": "/qbscripts/category/script-2",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/qbscripts/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "standalonescripts": {
+      "path": "/standalonescripts",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/standalonescripts",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/standalonescripts/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "script 1/markdown-features",
+              "path": "/standalonescripts/script 1/script 1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "script 2/markdown-features",
+              "path": "/standalonescripts/script 2/script 2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/script-1",
+              "path": "/standalonescripts/category/script-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/script-2",
+              "path": "/standalonescripts/category/script-2",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/standalonescripts/intro",
                 "label": "intro"
               }
             }

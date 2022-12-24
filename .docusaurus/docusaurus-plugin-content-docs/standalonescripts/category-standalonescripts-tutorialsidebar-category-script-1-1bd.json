@@ -1,0 +1,15 @@
+{
+  "title": "script 1",
+  "slug": "/category/script-1",
+  "permalink": "/standalonescripts/category/script-1",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/standalonescripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/standalonescripts/script 1/script 1"
+    }
+  }
+}

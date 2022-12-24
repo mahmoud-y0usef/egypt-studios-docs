@@ -7,7 +7,7 @@
   "formattedDate": "August 30, 2021",
   "tags": [],
   "readingTime": 0.01,
-  "truncated": false,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Mahmoud Yousef",

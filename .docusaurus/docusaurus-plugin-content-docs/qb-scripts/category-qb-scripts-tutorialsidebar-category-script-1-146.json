@@ -1,0 +1,15 @@
+{
+  "title": "script 1",
+  "slug": "/category/script-1",
+  "permalink": "/qb-scripts/category/script-1",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/qb-scripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/qb-scripts/script 1/script 1"
+    }
+  }
+}

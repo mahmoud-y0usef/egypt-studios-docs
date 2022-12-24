@@ -24,28 +24,16 @@ export default [
   },
   {
     path: '/search',
-    component: ComponentCreator('/search', '5f4'),
+    component: ComponentCreator('/search', '148'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e51'),
+    component: ComponentCreator('/docs', 'f68'),
     routes: [
       {
         path: '/docs/category/script-1',
         component: ComponentCreator('/docs/category/script-1', '5e5'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/script-1-1',
-        component: ComponentCreator('/docs/category/script-1-1', '833'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/script-1-2',
-        component: ComponentCreator('/docs/category/script-1-2', '02d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -56,56 +44,92 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/script-2-1',
-        component: ComponentCreator('/docs/category/script-2-1', '77f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/script-2-2',
-        component: ComponentCreator('/docs/category/script-2-2', '5e8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/esx scripts/script 1/markdown-features',
-        component: ComponentCreator('/docs/esx scripts/script 1/markdown-features', '0e7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/esx scripts/script 2/markdown-features',
-        component: ComponentCreator('/docs/esx scripts/script 2/markdown-features', 'db1'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/qb scripts/script 1/markdown-features',
-        component: ComponentCreator('/docs/qb scripts/script 1/markdown-features', 'c7c'),
+        path: '/docs/script 1/script 1',
+        component: ComponentCreator('/docs/script 1/script 1', '801'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/qb scripts/script 2/markdown-features',
-        component: ComponentCreator('/docs/qb scripts/script 2/markdown-features', '625'),
+        path: '/docs/script 2/script 2',
+        component: ComponentCreator('/docs/script 2/script 2', '9bc'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      }
+    ]
+  },
+  {
+    path: '/qbscripts',
+    component: ComponentCreator('/qbscripts', '5fd'),
+    routes: [
+      {
+        path: '/qbscripts/category/script-1',
+        component: ComponentCreator('/qbscripts/category/script-1', '7e9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/stand alone scripts/script 1/markdown-features',
-        component: ComponentCreator('/docs/stand alone scripts/script 1/markdown-features', 'a57'),
+        path: '/qbscripts/category/script-2',
+        component: ComponentCreator('/qbscripts/category/script-2', 'b2f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/stand alone scripts/script 2/markdown-features',
-        component: ComponentCreator('/docs/stand alone scripts/script 2/markdown-features', '6d8'),
+        path: '/qbscripts/intro',
+        component: ComponentCreator('/qbscripts/intro', '359'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/qbscripts/script 1/script 1',
+        component: ComponentCreator('/qbscripts/script 1/script 1', 'a36'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/qbscripts/script 2/script 2',
+        component: ComponentCreator('/qbscripts/script 2/script 2', '98c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      }
+    ]
+  },
+  {
+    path: '/standalonescripts',
+    component: ComponentCreator('/standalonescripts', '175'),
+    routes: [
+      {
+        path: '/standalonescripts/category/script-1',
+        component: ComponentCreator('/standalonescripts/category/script-1', '754'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/category/script-2',
+        component: ComponentCreator('/standalonescripts/category/script-2', 'dc2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/intro',
+        component: ComponentCreator('/standalonescripts/intro', '04d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/script 1/script 1',
+        component: ComponentCreator('/standalonescripts/script 1/script 1', '2a8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/script 2/script 2',
+        component: ComponentCreator('/standalonescripts/script 2/script 2', 'd3c'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

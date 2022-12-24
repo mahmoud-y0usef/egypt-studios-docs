@@ -1,0 +1,21 @@
+{
+  "unversionedId": "script 2/markdown-features",
+  "id": "script 2/markdown-features",
+  "title": "installation",
+  "description": "",
+  "source": "@site/esx-scripts/script 2/markdown-features.mdx",
+  "sourceDirName": "script 2",
+  "slug": "/script 2/script 2",
+  "permalink": "/esx-scripts/script 2/script 2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "script 2"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "script 2",
+    "permalink": "/esx-scripts/category/script-2"
+  }
+}

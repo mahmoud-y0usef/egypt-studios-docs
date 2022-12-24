@@ -1,0 +1,22 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "intro",
+  "description": "welcome",
+  "source": "@site/standalone-scripts/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/standalone-scripts/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "script 1",
+    "permalink": "/standalone-scripts/category/script-1"
+  }
+}

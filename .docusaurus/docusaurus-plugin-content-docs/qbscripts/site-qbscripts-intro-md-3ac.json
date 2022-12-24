@@ -1,0 +1,22 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "intro",
+  "description": "welcome",
+  "source": "@site/qbscripts/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/qbscripts/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "script 1",
+    "permalink": "/qbscripts/category/script-1"
+  }
+}

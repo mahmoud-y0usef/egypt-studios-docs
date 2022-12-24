@@ -1,0 +1,70 @@
+{
+  "pluginId": "qb-scripts",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/qb-scripts/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "script 1",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/qb-scripts/script 1/script 1",
+            "docId": "script 1/markdown-features"
+          }
+        ],
+        "href": "/qb-scripts/category/script-1"
+      },
+      {
+        "type": "category",
+        "label": "script 2",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/qb-scripts/script 2/script 2",
+            "docId": "script 2/markdown-features"
+          }
+        ],
+        "href": "/qb-scripts/category/script-2"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "intro",
+      "description": "welcome",
+      "sidebar": "tutorialSidebar"
+    },
+    "script 1/markdown-features": {
+      "id": "script 1/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "script 2/markdown-features": {
+      "id": "script 2/markdown-features",
+      "title": "installation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[458],{1942:s=>{s.exports=JSON.parse('{"title":"script 2","slug":"/category/script-2","permalink":"/docs/category/script-2","navigation":{"previous":{"title":"installation","permalink":"/docs/script 1/script 1"},"next":{"title":"installation","permalink":"/docs/script 2/script 2"}}}')}}]);
