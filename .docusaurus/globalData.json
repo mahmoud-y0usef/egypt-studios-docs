@@ -21,38 +21,38 @@
   },
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/esxscripts",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/esxscripts",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/esxscripts/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "script 1/markdown-features",
-              "path": "/docs/script 1/script 1",
+              "path": "/esxscripts/script 1/script 1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "script 2/markdown-features",
-              "path": "/docs/script 2/script 2",
+              "path": "/esxscripts/script 2/script 2",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/script-1",
-              "path": "/docs/category/script-1",
+              "path": "/esxscripts/category/script-1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/script-2",
-              "path": "/docs/category/script-2",
+              "path": "/esxscripts/category/script-2",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -60,7 +60,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/esxscripts/intro",
                 "label": "intro"
               }
             }

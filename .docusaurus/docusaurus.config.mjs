@@ -74,9 +74,9 @@ export default {
           "position": "left",
           "items": [
             {
-              "to": "/docs/intro",
+              "to": "/esxscripts/intro",
               "label": "esx scripts",
-              "activeBaseRegex": "/docs/"
+              "activeBaseRegex": "/esxscripts/"
             },
             {
               "to": "/qbscripts/intro",
@@ -303,8 +303,8 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "routeBasePath": "docs",
-          "path": "docs",
+          "routeBasePath": "esxscripts",
+          "path": "esxscripts",
           "sidebarPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
           "lastVersion": "current",
           "onlyIncludeVersions": [

@@ -73,10 +73,10 @@ module.exports = {
           position: 'left',
           items: [
             {
-              to: '/docs/intro',    
+              to: '/esxscripts/intro',    
               label: 'esx scripts',
               // position: 'left',
-              activeBaseRegex: `/docs/`,
+              activeBaseRegex: `/esxscripts/`,
             },
             {
               to: '/qbscripts/intro', 
@@ -143,8 +143,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath: 'docs',
-          path: 'docs',
+          routeBasePath: 'esxscripts',
+          path: 'esxscripts',
           sidebarPath: require.resolve('./sidebars.js'),
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],

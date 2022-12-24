@@ -28,36 +28,36 @@ export default [
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'f68'),
+    path: '/esxscripts',
+    component: ComponentCreator('/esxscripts', 'e8a'),
     routes: [
       {
-        path: '/docs/category/script-1',
-        component: ComponentCreator('/docs/category/script-1', '5e5'),
+        path: '/esxscripts/category/script-1',
+        component: ComponentCreator('/esxscripts/category/script-1', 'c5b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/script-2',
-        component: ComponentCreator('/docs/category/script-2', 'd0f'),
+        path: '/esxscripts/category/script-2',
+        component: ComponentCreator('/esxscripts/category/script-2', 'ea7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/esxscripts/intro',
+        component: ComponentCreator('/esxscripts/intro', 'c77'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/script 1/script 1',
-        component: ComponentCreator('/docs/script 1/script 1', '801'),
+        path: '/esxscripts/script 1/script 1',
+        component: ComponentCreator('/esxscripts/script 1/script 1', 'd70'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/script 2/script 2',
-        component: ComponentCreator('/docs/script 2/script 2', '9bc'),
+        path: '/esxscripts/script 2/script 2',
+        component: ComponentCreator('/esxscripts/script 2/script 2', '8f5'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

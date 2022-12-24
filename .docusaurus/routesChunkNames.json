@@ -40,32 +40,32 @@
       "plugin": "72075e2e"
     }
   },
-  "/docs-f68": {
+  "/esxscripts-e8a": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a58965ce"
     },
     "versionMetadata": "935f2afb"
   },
-  "/docs/category/script-1-5e5": {
+  "/esxscripts/category/script-1-c5b": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "f869616f"
+    "categoryGeneratedIndex": "8f3eb0f1"
   },
-  "/docs/category/script-2-d0f": {
+  "/esxscripts/category/script-2-ea7": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "d0eb1a83"
+    "categoryGeneratedIndex": "8c80b676"
   },
-  "/docs/intro-aed": {
+  "/esxscripts/intro-c77": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "2fdc0d13"
   },
-  "/docs/script 1/script 1-801": {
+  "/esxscripts/script 1/script 1-d70": {
     "__comp": "17896441",
-    "content": "65f83c96"
+    "content": "0e070c4e"
   },
-  "/docs/script 2/script 2-9bc": {
+  "/esxscripts/script 2/script 2-8f5": {
     "__comp": "17896441",
-    "content": "5e32dd67"
+    "content": "04afe179"
   },
   "/qbscripts-5fd": {
     "__comp": "1be78505",
