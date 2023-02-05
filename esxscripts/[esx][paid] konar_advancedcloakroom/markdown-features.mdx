@@ -1,28 +1,37 @@
 ---
-slug: esx-police-job
-# title: esx police job
+slug: [esx][paid] konar_advancedcloakroom
+# title: [esx][paid] konar_advancedcloakroom
 # description: Welcome, I'm so glad you bought my script and I'm glad you joined our discord https://discord.gg/Q6VpZTueKF
 ---
 
-# installation esx police job
+# [esx] konar_advancedcloakroom
+* Welcome, I'm so glad you bought my script and I'm glad you joined our discord https://discord.gg/Q6VpZTueKF
 
 * in esx_policejob / client.lua
 
-* add RegisterNetEvent('esx_policejob:playerInService')
-AddeventHandler('esx_policejob:playerInService', function()
+* add
+
+   * RegisterNetEvent('esx_policejob:playerInService')
+
+   * AddeventHandler('esx_policejob:playerInService', function()
 	playerInService = true
-end)
-RegisterNetEvent('esx_policejob:playeroutService')
-AddeventHandler('esx_policejob:playeroutService', function()
+	
+    end)
+
+   * RegisterNetEvent('esx_policejob:playeroutService')
+
+   * AddeventHandler('esx_policejob:playeroutService',
+function()
 	playerInService = false
-end)
+	
+    end)
 
 
 * in konar_policearmour 
-    run items.sql
-    in server.cfg
-    start konar_advancedcloakroom
-    start konar_policearmour
+    * run items.sql
+    * in server.cfg
+    * start konar_advancedcloakroom
+    * start konar_policearmour
 
 # dependencies
 * es_extended

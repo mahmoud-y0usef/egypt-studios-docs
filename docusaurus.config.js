@@ -79,18 +79,18 @@ module.exports = {
               // position: 'left',
               activeBaseRegex: `/esxscripts/`,
             },
-            {
-              to: '/qbscripts/intro', 
-              label: 'qb scripts',
-              // position: 'left',
-              activeBaseRegex: `/qbscripts/`,
-            },
-            {
-              to: '/standalonescripts/intro',  // ./docs-system/Intro.md
-              label: 'standalone scripts',
-              // position: 'left',
-              activeBaseRegex: `/standalonescripts/`,
-            },
+            // {
+            //   to: '/qbscripts/intro', 
+            //   label: 'qb scripts',
+            //   position: 'left',
+            //   activeBaseRegex: `/qbscripts/`,
+            // },
+            // {
+            //   to: '/standalonescripts/intro',  // ./docs-system/Intro.md
+            //   label: 'standalone scripts',
+            //   position: 'left',
+            //   activeBaseRegex: `/standalonescripts/`,
+            // },
           ],
         },
         
