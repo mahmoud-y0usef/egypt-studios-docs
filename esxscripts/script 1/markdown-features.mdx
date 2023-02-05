@@ -1,7 +1,43 @@
 ---
-slug: script 1
-# title:
-# description:
+slug: esx-police-job
+# title: esx police job
+# description: Welcome, I'm so glad you bought my script and I'm glad you joined our discord https://discord.gg/Q6VpZTueKF
 ---
 
-# installation
+# installation esx police job
+
+* in esx_policejob / client.lua
+
+* add RegisterNetEvent('esx_policejob:playerInService')
+AddeventHandler('esx_policejob:playerInService', function()
+	playerInService = true
+end)
+RegisterNetEvent('esx_policejob:playeroutService')
+AddeventHandler('esx_policejob:playeroutService', function()
+	playerInService = false
+end)
+
+
+* in konar_policearmour 
+    run items.sql
+    in server.cfg
+    start konar_advancedcloakroom
+    start konar_policearmour
+
+# dependencies
+* es_extended
+* esx_skin
+* skinchanger
+* esx_service
+* esx_policejob
+
+# resmon
+![](https://cdn.discordapp.com/attachments/824968307400507422/1071877719928881212/image.png)
+![](https://media.discordapp.net/attachments/824968307400507422/1071877802648928317/image.png?width=914&height=21)
+
+# webhook
+![](https://media.discordapp.net/attachments/824968307400507422/1071873356619591871/image.png?width=501&height=665)
+
+# Config
+![](https://media.discordapp.net/attachments/824968307400507422/1071859809864921229/image.png?width=737&height=666)
+![](https://media.discordapp.net/attachments/824968307400507422/1071861738586255400/image.png?width=783&height=666)
