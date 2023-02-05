@@ -7,76 +7,26 @@
           "label": "Next",
           "banner": null,
           "badge": false,
+          "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docusaurus-search-example/docs",
-          "tagsPath": "/docusaurus-search-example/docs/tags",
-          "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs",
-          "editUrlLocalized": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/i18n/en/docusaurus-plugin-content-docs/current",
+          "path": "/esxscripts",
+          "tagsPath": "/esxscripts/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
-          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\docs",
+          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\esxscripts",
           "contentPathLocalized": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
-            {
-              "unversionedId": "esx scripts/script 1/markdown-features",
-              "id": "esx scripts/script 1/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/docs/esx scripts/script 1/markdown-features.mdx",
-              "sourceDirName": "esx scripts/script 1",
-              "slug": "/esx scripts/script 1/markdown-features",
-              "permalink": "/docusaurus-search-example/docs/esx scripts/script 1/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/esx scripts/script 1/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 1",
-                "permalink": "/docusaurus-search-example/docs/category/script-1"
-              },
-              "next": {
-                "title": "script 2",
-                "permalink": "/docusaurus-search-example/docs/category/script-2"
-              }
-            },
-            {
-              "unversionedId": "esx scripts/script 2/markdown-features",
-              "id": "esx scripts/script 2/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/docs/esx scripts/script 2/markdown-features.mdx",
-              "sourceDirName": "esx scripts/script 2",
-              "slug": "/esx scripts/script 2/markdown-features",
-              "permalink": "/docusaurus-search-example/docs/esx scripts/script 2/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/esx scripts/script 2/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 2",
-                "permalink": "/docusaurus-search-example/docs/category/script-2"
-              },
-              "next": {
-                "title": "script 1",
-                "permalink": "/docusaurus-search-example/docs/category/script-1-1"
-              }
-            },
             {
               "unversionedId": "intro",
               "id": "intro",
               "title": "intro",
               "description": "welcome",
-              "source": "@site/docs/intro.md",
+              "source": "@site/esxscripts/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docusaurus-search-example/docs/intro",
+              "permalink": "/esxscripts/intro",
               "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -86,99 +36,53 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "script 1",
-                "permalink": "/docusaurus-search-example/docs/category/script-1"
+                "permalink": "/esxscripts/category/script-1"
               }
             },
             {
-              "unversionedId": "qb scripts/script 1/markdown-features",
-              "id": "qb scripts/script 1/markdown-features",
+              "unversionedId": "script 1/markdown-features",
+              "id": "script 1/markdown-features",
               "title": "installation",
               "description": "",
-              "source": "@site/docs/qb scripts/script 1/markdown-features.mdx",
-              "sourceDirName": "qb scripts/script 1",
-              "slug": "/qb scripts/script 1/markdown-features",
-              "permalink": "/docusaurus-search-example/docs/qb scripts/script 1/markdown-features",
+              "source": "@site/esxscripts/script 1/markdown-features.mdx",
+              "sourceDirName": "script 1",
+              "slug": "/script 1/script 1",
+              "permalink": "/esxscripts/script 1/script 1",
               "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/qb scripts/script 1/markdown-features.mdx",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "slug": "script 1"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 1",
-                "permalink": "/docusaurus-search-example/docs/category/script-1-1"
+                "permalink": "/esxscripts/category/script-1"
               },
               "next": {
                 "title": "script 2",
-                "permalink": "/docusaurus-search-example/docs/category/script-2-1"
+                "permalink": "/esxscripts/category/script-2"
               }
             },
             {
-              "unversionedId": "qb scripts/script 2/markdown-features",
-              "id": "qb scripts/script 2/markdown-features",
+              "unversionedId": "script 2/markdown-features",
+              "id": "script 2/markdown-features",
               "title": "installation",
               "description": "",
-              "source": "@site/docs/qb scripts/script 2/markdown-features.mdx",
-              "sourceDirName": "qb scripts/script 2",
-              "slug": "/qb scripts/script 2/markdown-features",
-              "permalink": "/docusaurus-search-example/docs/qb scripts/script 2/markdown-features",
+              "source": "@site/esxscripts/script 2/markdown-features.mdx",
+              "sourceDirName": "script 2",
+              "slug": "/script 2/script 2",
+              "permalink": "/esxscripts/script 2/script 2",
               "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/qb scripts/script 2/markdown-features.mdx",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 2",
-                "permalink": "/docusaurus-search-example/docs/category/script-2-1"
+              "frontMatter": {
+                "slug": "script 2"
               },
-              "next": {
-                "title": "script 1",
-                "permalink": "/docusaurus-search-example/docs/category/script-1-2"
-              }
-            },
-            {
-              "unversionedId": "stand alone scripts/script 1/markdown-features",
-              "id": "stand alone scripts/script 1/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/docs/stand alone scripts/script 1/markdown-features.mdx",
-              "sourceDirName": "stand alone scripts/script 1",
-              "slug": "/stand alone scripts/script 1/markdown-features",
-              "permalink": "/docusaurus-search-example/docs/stand alone scripts/script 1/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/stand alone scripts/script 1/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 1",
-                "permalink": "/docusaurus-search-example/docs/category/script-1-2"
-              },
-              "next": {
-                "title": "script 2",
-                "permalink": "/docusaurus-search-example/docs/category/script-2-2"
-              }
-            },
-            {
-              "unversionedId": "stand alone scripts/script 2/markdown-features",
-              "id": "stand alone scripts/script 2/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/docs/stand alone scripts/script 2/markdown-features.mdx",
-              "sourceDirName": "stand alone scripts/script 2",
-              "slug": "/stand alone scripts/script 2/markdown-features",
-              "permalink": "/docusaurus-search-example/docs/stand alone scripts/script 2/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/docs/stand alone scripts/script 2/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "script 2",
-                "permalink": "/docusaurus-search-example/docs/category/script-2-2"
+                "permalink": "/esxscripts/category/script-2"
               }
             }
           ],
@@ -191,129 +95,301 @@
               },
               {
                 "type": "category",
-                "label": "esx scripts",
+                "label": "script 1",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "script 1",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "esx scripts/script 1/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-1",
-                      "permalink": "/docusaurus-search-example/docs/category/script-1"
-                    }
-                  },
-                  {
-                    "type": "category",
-                    "label": "script 2",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "esx scripts/script 2/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-2",
-                      "permalink": "/docusaurus-search-example/docs/category/script-2"
-                    }
+                    "type": "doc",
+                    "id": "script 1/markdown-features"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/script-1",
+                  "permalink": "/esxscripts/category/script-1"
+                }
               },
               {
                 "type": "category",
-                "label": "qb scripts",
+                "label": "script 2",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "script 1",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "qb scripts/script 1/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-1-1",
-                      "permalink": "/docusaurus-search-example/docs/category/script-1-1"
-                    }
-                  },
-                  {
-                    "type": "category",
-                    "label": "script 2",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "qb scripts/script 2/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-2-1",
-                      "permalink": "/docusaurus-search-example/docs/category/script-2-1"
-                    }
+                    "type": "doc",
+                    "id": "script 2/markdown-features"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/script-2",
+                  "permalink": "/esxscripts/category/script-2"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "qbscripts": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/qbscripts",
+          "tagsPath": "/qbscripts/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\qbscripts",
+          "contentPathLocalized": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-qbscripts\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "intro",
+              "description": "welcome",
+              "source": "@site/qbscripts/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/qbscripts/intro",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "script 1",
+                "permalink": "/qbscripts/category/script-1"
+              }
+            },
+            {
+              "unversionedId": "script 1/markdown-features",
+              "id": "script 1/markdown-features",
+              "title": "installation",
+              "description": "",
+              "source": "@site/qbscripts/script 1/markdown-features.mdx",
+              "sourceDirName": "script 1",
+              "slug": "/script 1/script 1",
+              "permalink": "/qbscripts/script 1/script 1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "script 1"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "script 1",
+                "permalink": "/qbscripts/category/script-1"
+              },
+              "next": {
+                "title": "script 2",
+                "permalink": "/qbscripts/category/script-2"
+              }
+            },
+            {
+              "unversionedId": "script 2/markdown-features",
+              "id": "script 2/markdown-features",
+              "title": "installation",
+              "description": "",
+              "source": "@site/qbscripts/script 2/markdown-features.mdx",
+              "sourceDirName": "script 2",
+              "slug": "/script 2/script 2",
+              "permalink": "/qbscripts/script 2/script 2",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "script 2"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "script 2",
+                "permalink": "/qbscripts/category/script-2"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
               },
               {
                 "type": "category",
-                "label": "stand alone scripts",
+                "label": "script 1",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "script 1",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "stand alone scripts/script 1/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-1-2",
-                      "permalink": "/docusaurus-search-example/docs/category/script-1-2"
-                    }
-                  },
-                  {
-                    "type": "category",
-                    "label": "script 2",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "stand alone scripts/script 2/markdown-features"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/script-2-2",
-                      "permalink": "/docusaurus-search-example/docs/category/script-2-2"
-                    }
+                    "type": "doc",
+                    "id": "script 1/markdown-features"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/script-1",
+                  "permalink": "/qbscripts/category/script-1"
+                }
+              },
+              {
+                "type": "category",
+                "label": "script 2",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "script 2/markdown-features"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/script-2",
+                  "permalink": "/qbscripts/category/script-2"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "standalonescripts": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/standalonescripts",
+          "tagsPath": "/standalonescripts/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\standalonescripts",
+          "contentPathLocalized": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-standalonescripts\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "intro",
+              "description": "welcome",
+              "source": "@site/standalonescripts/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/standalonescripts/intro",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "script 1",
+                "permalink": "/standalonescripts/category/script-1"
+              }
+            },
+            {
+              "unversionedId": "script 1/markdown-features",
+              "id": "script 1/markdown-features",
+              "title": "installation",
+              "description": "",
+              "source": "@site/standalonescripts/script 1/markdown-features.mdx",
+              "sourceDirName": "script 1",
+              "slug": "/script 1/script 1",
+              "permalink": "/standalonescripts/script 1/script 1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "script 1"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "script 1",
+                "permalink": "/standalonescripts/category/script-1"
+              },
+              "next": {
+                "title": "script 2",
+                "permalink": "/standalonescripts/category/script-2"
+              }
+            },
+            {
+              "unversionedId": "script 2/markdown-features",
+              "id": "script 2/markdown-features",
+              "title": "installation",
+              "description": "",
+              "source": "@site/standalonescripts/script 2/markdown-features.mdx",
+              "sourceDirName": "script 2",
+              "slug": "/script 2/script 2",
+              "permalink": "/standalonescripts/script 2/script 2",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "script 2"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "script 2",
+                "permalink": "/standalonescripts/category/script-2"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "script 1",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "script 1/markdown-features"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/script-1",
+                  "permalink": "/standalonescripts/category/script-1"
+                }
+              },
+              {
+                "type": "category",
+                "label": "script 2",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "script 2/markdown-features"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/script-2",
+                  "permalink": "/standalonescripts/category/script-2"
+                }
               }
             ]
           }
@@ -328,8 +404,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/docusaurus-search-example/blog/welcome",
-            "editUrl": "https://github.com/easyops-cn/docusaurus-search-example/edit/master/blog/blog/2021-08-30-welcome/index.md",
+            "permalink": "/blog/welcome",
             "source": "@site/blog/2021-08-30-welcome/index.md",
             "title": "Welcome",
             "description": "soon",
@@ -337,7 +412,7 @@
             "formattedDate": "August 30, 2021",
             "tags": [],
             "readingTime": 0.01,
-            "truncated": false,
+            "hasTruncateMarker": false,
             "authors": [
               {
                 "name": "Mahmoud Yousef",
@@ -372,7 +447,7 @@
             "welcome"
           ],
           "metadata": {
-            "permalink": "/docusaurus-search-example/blog",
+            "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -383,19 +458,19 @@
         }
       ],
       "blogTags": {},
-      "blogTagsListPath": "/docusaurus-search-example/blog/tags"
+      "blogTagsListPath": "/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/docusaurus-search-example/",
+        "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/docusaurus-search-example/rules",
+        "permalink": "/rules",
         "source": "@site/src/pages/rules.md",
         "title": "rules",
         "description": "* If you want support in the codes, you must get a subscriber role",
@@ -408,7 +483,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
-  "@easyops-cn/docusaurus-search-local": {},
+  "docusaurus-plugin-search-local": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

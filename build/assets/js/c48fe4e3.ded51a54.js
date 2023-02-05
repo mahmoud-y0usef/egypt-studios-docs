@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[92],{983:s=>{s.exports=JSON.parse('{"title":"script 1","slug":"/category/script-1","permalink":"/qbscripts/category/script-1","navigation":{"previous":{"title":"intro","permalink":"/qbscripts/intro"},"next":{"title":"installation","permalink":"/qbscripts/script 1/script 1"}}}')}}]);

@@ -15,7 +15,9 @@
   color: white;
 }
 
-
+a , ul , li , b , p{
+  text-decoration: none;
+}
 
 :root {
   --ifm-color-primary: #ed3709;

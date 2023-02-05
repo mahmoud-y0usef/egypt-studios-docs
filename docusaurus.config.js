@@ -61,10 +61,11 @@ module.exports = {
     metadata: [{property: 'og:image', content: 'https://egypt-studios-docs.vercel.app/img/egypt-studios.png'}],
     navbar: {
       hideOnScroll: true,
-      title: 'egypt studios',
+      // title: 'egypt studios',
       logo: {
         alt: 'egypt studios',
         src: 'img/logo.png',
+        
       },
       items: [
         {

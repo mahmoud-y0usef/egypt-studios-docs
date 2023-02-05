@@ -62,7 +62,6 @@ export default {
     ],
     "navbar": {
       "hideOnScroll": true,
-      "title": "egypt studios",
       "logo": {
         "alt": "egypt studios",
         "src": "img/logo.png"

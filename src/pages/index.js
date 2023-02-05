@@ -5,21 +5,60 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)} >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+      <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-50"
+          src="img/1.png"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{marginLeft:"350px" , marginBottom:"80px"}}>First slide label</h3>
+          <p style={{marginLeft:"400px" , marginBottom:"50px"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-50"
+          src="img/1.png"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3 style={{marginLeft:"350px" , marginBottom:"80px"}}>Second slide label</h3>
+          <p style={{marginLeft:"400px" , marginBottom:"50px"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-50"
+          src="img/2.png"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        <h3 style={{marginLeft:"350px" , marginBottom:"80px"}}>Third slide label</h3>
+          <p style={{marginLeft:"400px" , marginBottom:"50px"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/esxscripts/intro">
             ️  go now
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
