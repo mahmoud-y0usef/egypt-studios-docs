@@ -4,77 +4,71 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '37c'),
+    component: ComponentCreator('/__docusaurus/debug', '6f8'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '1db'),
+    component: ComponentCreator('/__docusaurus/debug/config', '868'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '2b6'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'c64'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'd49'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '5eb'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '7b2'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '8a5'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '97f'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '4df'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '78c'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'efe'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'ebf'),
+    component: ComponentCreator('/blog', '104'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '716'),
+    component: ComponentCreator('/blog/archive', '4e8'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '12e'),
+    component: ComponentCreator('/blog/welcome', '13e'),
     exact: true
   },
   {
     path: '/rules',
-    component: ComponentCreator('/rules', '6e1'),
+    component: ComponentCreator('/rules', '02c'),
     exact: true
   },
   {
     path: '/search',
-    component: ComponentCreator('/search', '148'),
+    component: ComponentCreator('/search', '523'),
     exact: true
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', 'e8a'),
+    component: ComponentCreator('/esxscripts', 'e0f'),
     routes: [
       {
-        path: '/esxscripts/category/script-1',
-        component: ComponentCreator('/esxscripts/category/script-1', 'c5b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/esxscripts/category/script-2',
-        component: ComponentCreator('/esxscripts/category/script-2', 'ea7'),
+        path: '/esxscripts/category/esxpaidkonar_advancedcloakroom',
+        component: ComponentCreator('/esxscripts/category/esxpaidkonar_advancedcloakroom', 'c64'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -85,14 +79,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/esxscripts/script 1/script 1',
-        component: ComponentCreator('/esxscripts/script 1/script 1', 'd70'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/esxscripts/script 2/script 2',
-        component: ComponentCreator('/esxscripts/script 2/script 2', '8f5'),
+        path: '/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom',
+        component: ComponentCreator('/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom', '9f3'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
@@ -100,7 +88,7 @@ export default [
   },
   {
     path: '/qbscripts',
-    component: ComponentCreator('/qbscripts', '5fd'),
+    component: ComponentCreator('/qbscripts', 'bca'),
     routes: [
       {
         path: '/qbscripts/category/script-1',
@@ -136,7 +124,7 @@ export default [
   },
   {
     path: '/standalonescripts',
-    component: ComponentCreator('/standalonescripts', '175'),
+    component: ComponentCreator('/standalonescripts', '6dd'),
     routes: [
       {
         path: '/standalonescripts/category/script-1',
@@ -172,7 +160,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '506'),
+    component: ComponentCreator('/', '153'),
     exact: true
   },
   {

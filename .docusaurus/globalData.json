@@ -36,23 +36,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "script 1/markdown-features",
-              "path": "/esxscripts/script 1/script 1",
+              "id": "konar_advancedcloakroom/installation",
+              "path": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "script 2/markdown-features",
-              "path": "/esxscripts/script 2/script 2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-1",
-              "path": "/esxscripts/category/script-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-2",
-              "path": "/esxscripts/category/script-2",
+              "id": "/category/esxpaidkonar_advancedcloakroom",
+              "path": "/esxscripts/category/esxpaidkonar_advancedcloakroom",
               "sidebar": "tutorialSidebar"
             }
           ],

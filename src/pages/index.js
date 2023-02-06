@@ -17,40 +17,17 @@ function HomepageHeader() {
       <div className="container">
       <Carousel>
       <Carousel.Item>
-        <img
+        <img style={{width:"100px" , height:"400px"}}
           className="d-block w-50"
-          src="img/1.png"
+          src="https://media.discordapp.net/attachments/923389102890549278/1072121769873395763/advance_cloak_room.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 style={{marginLeft:"350px" , marginBottom:"80px"}}>First slide label</h3>
-          <p style={{marginLeft:"400px" , marginBottom:"50px"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 style={{marginLeft:"410px" , marginBottom:"50px"}}>[esx][paid] konar_advancedcloakroom</h3>
+          <button className='btn-slide' style={{marginLeft:"410px" , marginBottom:"50px"}}><a href='#'>Buy Now</a></button>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-50"
-          src="img/1.png"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3 style={{marginLeft:"350px" , marginBottom:"80px"}}>Second slide label</h3>
-          <p style={{marginLeft:"400px" , marginBottom:"50px"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-50"
-          src="img/2.png"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-        <h3 style={{marginLeft:"350px" , marginBottom:"80px"}}>Third slide label</h3>
-          <p style={{marginLeft:"400px" , marginBottom:"50px"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+     
     </Carousel>
         {/* <div className={styles.buttons}>
           <Link

@@ -13,15 +13,15 @@
           "tagsPath": "/esxscripts/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
-          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\esxscripts",
-          "contentPathLocalized": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "D:\\egypt-studios-docs\\sidebars.js",
+          "contentPath": "D:\\egypt-studios-docs\\esxscripts",
+          "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",
               "id": "intro",
               "title": "intro",
-              "description": "welcome",
+              "description": "welcome to esx scripts",
               "source": "@site/esxscripts/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -35,54 +35,29 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "script 1",
-                "permalink": "/esxscripts/category/script-1"
+                "title": "[esx][paid]konar_advancedcloakroom",
+                "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
               }
             },
             {
-              "unversionedId": "script 1/markdown-features",
-              "id": "script 1/markdown-features",
+              "unversionedId": "konar_advancedcloakroom/installation",
+              "id": "konar_advancedcloakroom/installation",
               "title": "installation",
-              "description": "",
-              "source": "@site/esxscripts/script 1/markdown-features.mdx",
-              "sourceDirName": "script 1",
-              "slug": "/script 1/script 1",
-              "permalink": "/esxscripts/script 1/script 1",
+              "description": "esx konar_advancedcloakroom",
+              "source": "@site/esxscripts/konar_advancedcloakroom/installation.mdx",
+              "sourceDirName": "konar_advancedcloakroom",
+              "slug": "/konar_advancedcloakroom/esx_konar_advancedcloakroom",
+              "permalink": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
               "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "slug": "script 1"
+                "slug": "esx_konar_advancedcloakroom"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "script 1",
-                "permalink": "/esxscripts/category/script-1"
-              },
-              "next": {
-                "title": "script 2",
-                "permalink": "/esxscripts/category/script-2"
-              }
-            },
-            {
-              "unversionedId": "script 2/markdown-features",
-              "id": "script 2/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/esxscripts/script 2/markdown-features.mdx",
-              "sourceDirName": "script 2",
-              "slug": "/script 2/script 2",
-              "permalink": "/esxscripts/script 2/script 2",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "slug": "script 2"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 2",
-                "permalink": "/esxscripts/category/script-2"
+                "title": "[esx][paid]konar_advancedcloakroom",
+                "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
               }
             }
           ],
@@ -95,36 +70,19 @@
               },
               {
                 "type": "category",
-                "label": "script 1",
+                "label": "[esx][paid]konar_advancedcloakroom",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "script 1/markdown-features"
+                    "id": "konar_advancedcloakroom/installation"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/script-1",
-                  "permalink": "/esxscripts/category/script-1"
-                }
-              },
-              {
-                "type": "category",
-                "label": "script 2",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "script 2/markdown-features"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/script-2",
-                  "permalink": "/esxscripts/category/script-2"
+                  "slug": "/category/esxpaidkonar_advancedcloakroom",
+                  "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
                 }
               }
             ]
@@ -145,9 +103,9 @@
           "tagsPath": "/qbscripts/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
-          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\qbscripts",
-          "contentPathLocalized": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-qbscripts\\current",
+          "sidebarFilePath": "D:\\egypt-studios-docs\\sidebars.js",
+          "contentPath": "D:\\egypt-studios-docs\\qbscripts",
+          "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-qbscripts\\current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -277,9 +235,9 @@
           "tagsPath": "/standalonescripts/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
-          "contentPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\standalonescripts",
-          "contentPathLocalized": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-standalonescripts\\current",
+          "sidebarFilePath": "D:\\egypt-studios-docs\\sidebars.js",
+          "contentPath": "D:\\egypt-studios-docs\\standalonescripts",
+          "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-standalonescripts\\current",
           "docs": [
             {
               "unversionedId": "intro",

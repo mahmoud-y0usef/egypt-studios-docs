@@ -84,3 +84,29 @@ a , ul , li , b , p{
     var(--ifm-color-emphasis-100) 100%
   );
 }
+.carousel-indicators{
+ position: absolute;
+ top: 400px;
+}
+.btn-slide{
+  border: none;
+  background-color: #ed3709;
+  border-radius: 10px;
+  padding: 8px 10px;
+  transition: all 1s;
+}
+.btn-slide a{
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 1s;
+  font-weight: 500;
+}
+.btn-slide:hover{
+  background-color: #ffffff;
+}
+.btn-slide:hover a{
+  color: black;
+}
+.btn-slide a:hover{
+  color: black;
+}

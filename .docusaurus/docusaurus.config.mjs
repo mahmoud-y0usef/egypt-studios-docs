@@ -23,7 +23,7 @@ export default {
   },
   "plugins": [
     [
-      "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\node_modules\\docusaurus-plugin-search-local\\dist\\server\\index.js",
+      "D:\\egypt-studios-docs\\node_modules\\docusaurus-plugin-search-local\\dist\\server\\index.js",
       {
         "indexDocs": true,
         "indexBlog": true,
@@ -40,7 +40,7 @@ export default {
         "id": "qbscripts",
         "path": "qbscripts",
         "routeBasePath": "qbscripts",
-        "sidebarPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js"
+        "sidebarPath": "D:\\egypt-studios-docs\\sidebars.js"
       }
     ],
     [
@@ -49,7 +49,7 @@ export default {
         "id": "standalonescripts",
         "path": "standalonescripts",
         "routeBasePath": "standalonescripts",
-        "sidebarPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js"
+        "sidebarPath": "D:\\egypt-studios-docs\\sidebars.js"
       }
     ]
   ],
@@ -76,16 +76,6 @@ export default {
               "to": "/esxscripts/intro",
               "label": "esx scripts",
               "activeBaseRegex": "/esxscripts/"
-            },
-            {
-              "to": "/qbscripts/intro",
-              "label": "qb scripts",
-              "activeBaseRegex": "/qbscripts/"
-            },
-            {
-              "to": "/standalonescripts/intro",
-              "label": "standalone scripts",
-              "activeBaseRegex": "/standalonescripts/"
             }
           ]
         },
@@ -114,7 +104,7 @@ export default {
           "items": [
             {
               "label": "discord",
-              "href": "https://discord.gg/Q6VpZTueKF"
+              "href": "https://discord.gg/2Xhag8k8Pm"
             },
             {
               "label": "youtube",
@@ -136,7 +126,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 💗 egypt studios "
+      "copyright": "Copyright © 2023 💗 egypt studios "
     },
     "colorMode": {
       "defaultMode": "light",
@@ -304,7 +294,7 @@ export default {
         "docs": {
           "routeBasePath": "esxscripts",
           "path": "esxscripts",
-          "sidebarPath": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\sidebars.js",
+          "sidebarPath": "D:\\egypt-studios-docs\\sidebars.js",
           "lastVersion": "current",
           "onlyIncludeVersions": [
             "current"
@@ -314,7 +304,7 @@ export default {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "C:\\Users\\mahmo\\Desktop\\egypt-studios-docs\\src\\css\\custom.css"
+          "customCss": "D:\\egypt-studios-docs\\src\\css\\custom.css"
         }
       }
     ]

@@ -17,33 +17,18 @@
       },
       {
         "type": "category",
-        "label": "script 1",
+        "label": "[esx][paid]konar_advancedcloakroom",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "installation",
-            "href": "/esxscripts/script 1/script 1",
-            "docId": "script 1/markdown-features"
+            "href": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
+            "docId": "konar_advancedcloakroom/installation"
           }
         ],
-        "href": "/esxscripts/category/script-1"
-      },
-      {
-        "type": "category",
-        "label": "script 2",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "installation",
-            "href": "/esxscripts/script 2/script 2",
-            "docId": "script 2/markdown-features"
-          }
-        ],
-        "href": "/esxscripts/category/script-2"
+        "href": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
       }
     ]
   },
@@ -51,19 +36,13 @@
     "intro": {
       "id": "intro",
       "title": "intro",
-      "description": "welcome",
+      "description": "welcome to esx scripts",
       "sidebar": "tutorialSidebar"
     },
-    "script 1/markdown-features": {
-      "id": "script 1/markdown-features",
+    "konar_advancedcloakroom/installation": {
+      "id": "konar_advancedcloakroom/installation",
       "title": "installation",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "script 2/markdown-features": {
-      "id": "script 2/markdown-features",
-      "title": "installation",
-      "description": "",
+      "description": "esx konar_advancedcloakroom",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "intro",
-  "description": "welcome",
+  "description": "welcome to esx scripts",
   "source": "@site/esxscripts/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "script 1",
-    "permalink": "/esxscripts/category/script-1"
+    "title": "[esx][paid]konar_advancedcloakroom",
+    "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
   }
 }
