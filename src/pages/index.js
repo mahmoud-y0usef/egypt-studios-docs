@@ -24,7 +24,7 @@ function HomepageHeader() {
         />
         <Carousel.Caption>
           <h3 style={{marginLeft:"410px" , marginBottom:"50px"}}>[esx][paid] konar_advancedcloakroom</h3>
-          <button className='btn-slide' style={{marginLeft:"410px" , marginBottom:"50px"}}><a href='#'>Buy Now</a></button>
+          <button className='btn-slide' style={{marginLeft:"410px" , marginBottom:"50px"}}><a href='https://egyptstudio.tebex.io/package/5058633'>Buy Now</a></button>
         </Carousel.Caption>
       </Carousel.Item>
      
