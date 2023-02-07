@@ -23,7 +23,7 @@ function HomepageHeader() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 style={{marginLeft:"410px" , marginBottom:"50px"}}>[esx][paid] konar_advancedcloakroom</h3>
+          <h3 style={{marginLeft:"410px" , marginBottom:"50px"}}>[esx,qb][paid] konar_advancedcloakroom</h3>
           <button className='btn-slide' style={{marginLeft:"410px" , marginBottom:"50px"}}><a target={"_blank"} href='https://egyptstudio.tebex.io/package/5058633'>Buy Now</a></button>
         </Carousel.Caption>
       </Carousel.Item>

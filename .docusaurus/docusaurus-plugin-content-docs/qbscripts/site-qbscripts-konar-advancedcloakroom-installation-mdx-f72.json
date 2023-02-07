@@ -1,0 +1,21 @@
+{
+  "unversionedId": "konar_advancedcloakroom/installation",
+  "id": "konar_advancedcloakroom/installation",
+  "title": "installation",
+  "description": "qb konar_advancedcloakroom",
+  "source": "@site/qbscripts/konar_advancedcloakroom/installation.mdx",
+  "sourceDirName": "konar_advancedcloakroom",
+  "slug": "/konar_advancedcloakroom/qb_konar_advancedcloakroom",
+  "permalink": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "qb_konar_advancedcloakroom"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[qb][paid]konar_advancedcloakroom",
+    "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+  }
+}

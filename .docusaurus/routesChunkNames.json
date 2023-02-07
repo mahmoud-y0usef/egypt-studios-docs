@@ -102,32 +102,24 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---esxscripts-konar-advancedcloakroom-esx-konar-advancedcloakroomcc-6-54d"
   },
-  "/qbscripts-bca": {
+  "/qbscripts-41c": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---qbscripts-98-b-db6"
     },
     "versionMetadata": "versionMetadata---qbscriptsacb-68a"
   },
-  "/qbscripts/category/script-1-7e9": {
+  "/qbscripts/category/qbpaidkonar_advancedcloakroom-503": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---qbscripts-category-script-1-c-48-f06"
-  },
-  "/qbscripts/category/script-2-b2f": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---qbscripts-category-script-2-a-0-f-f94"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---qbscripts-category-qbpaidkonar-advancedcloakroomf-4-a-09b"
   },
   "/qbscripts/intro-359": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---qbscripts-intro-3-ac-63b"
   },
-  "/qbscripts/script 1/script 1-a36": {
+  "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom-cf5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---qbscripts-script-1-script-1-a-0-c-873"
-  },
-  "/qbscripts/script 2/script 2-98c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---qbscripts-script-2-script-2024-a8c"
+    "content": "content---qbscripts-konar-advancedcloakroom-qb-konar-advancedcloakroomf-72-835"
   },
   "/standalonescripts-6dd": {
     "__comp": "__comp---theme-doc-page-1-be-9be",

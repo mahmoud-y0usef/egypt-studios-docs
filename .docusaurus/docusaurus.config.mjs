@@ -76,6 +76,11 @@ export default {
               "to": "/esxscripts/intro",
               "label": "esx scripts",
               "activeBaseRegex": "/esxscripts/"
+            },
+            {
+              "to": "/qbscripts/intro",
+              "label": "qb scripts",
+              "activeBaseRegex": "/qbscripts/"
             }
           ]
         },

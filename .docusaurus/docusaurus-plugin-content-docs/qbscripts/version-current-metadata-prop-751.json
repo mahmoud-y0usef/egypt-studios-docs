@@ -17,33 +17,18 @@
       },
       {
         "type": "category",
-        "label": "script 1",
+        "label": "[qb][paid]konar_advancedcloakroom",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "installation",
-            "href": "/qbscripts/script 1/script 1",
-            "docId": "script 1/markdown-features"
+            "href": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
+            "docId": "konar_advancedcloakroom/installation"
           }
         ],
-        "href": "/qbscripts/category/script-1"
-      },
-      {
-        "type": "category",
-        "label": "script 2",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "installation",
-            "href": "/qbscripts/script 2/script 2",
-            "docId": "script 2/markdown-features"
-          }
-        ],
-        "href": "/qbscripts/category/script-2"
+        "href": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
       }
     ]
   },
@@ -51,19 +36,13 @@
     "intro": {
       "id": "intro",
       "title": "intro",
-      "description": "welcome",
+      "description": "welcome to qb scripts",
       "sidebar": "tutorialSidebar"
     },
-    "script 1/markdown-features": {
-      "id": "script 1/markdown-features",
+    "konar_advancedcloakroom/installation": {
+      "id": "konar_advancedcloakroom/installation",
       "title": "installation",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "script 2/markdown-features": {
-      "id": "script 2/markdown-features",
-      "title": "installation",
-      "description": "",
+      "description": "qb konar_advancedcloakroom",
       "sidebar": "tutorialSidebar"
     }
   }

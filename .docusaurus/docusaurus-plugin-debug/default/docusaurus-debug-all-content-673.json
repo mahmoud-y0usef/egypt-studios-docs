@@ -111,7 +111,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "title": "intro",
-              "description": "welcome",
+              "description": "welcome to qb scripts",
               "source": "@site/qbscripts/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -125,54 +125,29 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "script 1",
-                "permalink": "/qbscripts/category/script-1"
+                "title": "[qb][paid]konar_advancedcloakroom",
+                "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
               }
             },
             {
-              "unversionedId": "script 1/markdown-features",
-              "id": "script 1/markdown-features",
+              "unversionedId": "konar_advancedcloakroom/installation",
+              "id": "konar_advancedcloakroom/installation",
               "title": "installation",
-              "description": "",
-              "source": "@site/qbscripts/script 1/markdown-features.mdx",
-              "sourceDirName": "script 1",
-              "slug": "/script 1/script 1",
-              "permalink": "/qbscripts/script 1/script 1",
+              "description": "qb konar_advancedcloakroom",
+              "source": "@site/qbscripts/konar_advancedcloakroom/installation.mdx",
+              "sourceDirName": "konar_advancedcloakroom",
+              "slug": "/konar_advancedcloakroom/qb_konar_advancedcloakroom",
+              "permalink": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
               "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "slug": "script 1"
+                "slug": "qb_konar_advancedcloakroom"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "script 1",
-                "permalink": "/qbscripts/category/script-1"
-              },
-              "next": {
-                "title": "script 2",
-                "permalink": "/qbscripts/category/script-2"
-              }
-            },
-            {
-              "unversionedId": "script 2/markdown-features",
-              "id": "script 2/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/qbscripts/script 2/markdown-features.mdx",
-              "sourceDirName": "script 2",
-              "slug": "/script 2/script 2",
-              "permalink": "/qbscripts/script 2/script 2",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "slug": "script 2"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 2",
-                "permalink": "/qbscripts/category/script-2"
+                "title": "[qb][paid]konar_advancedcloakroom",
+                "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
               }
             }
           ],
@@ -185,36 +160,19 @@
               },
               {
                 "type": "category",
-                "label": "script 1",
+                "label": "[qb][paid]konar_advancedcloakroom",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "script 1/markdown-features"
+                    "id": "konar_advancedcloakroom/installation"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/script-1",
-                  "permalink": "/qbscripts/category/script-1"
-                }
-              },
-              {
-                "type": "category",
-                "label": "script 2",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "script 2/markdown-features"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/script-2",
-                  "permalink": "/qbscripts/category/script-2"
+                  "slug": "/category/qbpaidkonar_advancedcloakroom",
+                  "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
                 }
               }
             ]

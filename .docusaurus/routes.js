@@ -88,17 +88,11 @@ export default [
   },
   {
     path: '/qbscripts',
-    component: ComponentCreator('/qbscripts', 'bca'),
+    component: ComponentCreator('/qbscripts', '41c'),
     routes: [
       {
-        path: '/qbscripts/category/script-1',
-        component: ComponentCreator('/qbscripts/category/script-1', '7e9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/qbscripts/category/script-2',
-        component: ComponentCreator('/qbscripts/category/script-2', 'b2f'),
+        path: '/qbscripts/category/qbpaidkonar_advancedcloakroom',
+        component: ComponentCreator('/qbscripts/category/qbpaidkonar_advancedcloakroom', '503'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -109,14 +103,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/qbscripts/script 1/script 1',
-        component: ComponentCreator('/qbscripts/script 1/script 1', 'a36'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/qbscripts/script 2/script 2',
-        component: ComponentCreator('/qbscripts/script 2/script 2', '98c'),
+        path: '/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom',
+        component: ComponentCreator('/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom', 'cf5'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

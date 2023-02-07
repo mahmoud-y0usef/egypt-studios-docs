@@ -75,23 +75,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "script 1/markdown-features",
-              "path": "/qbscripts/script 1/script 1",
+              "id": "konar_advancedcloakroom/installation",
+              "path": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "script 2/markdown-features",
-              "path": "/qbscripts/script 2/script 2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-1",
-              "path": "/qbscripts/category/script-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-2",
-              "path": "/qbscripts/category/script-2",
+              "id": "/category/qbpaidkonar_advancedcloakroom",
+              "path": "/qbscripts/category/qbpaidkonar_advancedcloakroom",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "intro",
-  "description": "welcome",
+  "description": "welcome to qb scripts",
   "source": "@site/qbscripts/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "script 1",
-    "permalink": "/qbscripts/category/script-1"
+    "title": "[qb][paid]konar_advancedcloakroom",
+    "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
   }
 }
