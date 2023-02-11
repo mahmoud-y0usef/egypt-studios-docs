@@ -53,6 +53,11 @@ export default [
     exact: true
   },
   {
+    path: '/privacy',
+    component: ComponentCreator('/privacy', 'ba7'),
+    exact: true
+  },
+  {
     path: '/rules',
     component: ComponentCreator('/rules', '02c'),
     exact: true

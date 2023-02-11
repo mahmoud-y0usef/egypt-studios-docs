@@ -105,6 +105,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "/privacy",
+          "label": "privacy",
+          "position": "left"
+        },
+        {
           "to": "/rules",
           "label": "Rules",
           "position": "left"
