@@ -21,6 +21,21 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "scripts": [
+    {
+      "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5578412566769378",
+      "defer": true,
+      "data-domain": "https://egypt-studios-docs.vercel.app/",
+      "crossorigin": "anonymous"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+      "integrity": "sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN",
+      "crossorigin": "anonymous",
+      "defer": true,
+      "data-domain": "https://egypt-studios-docs.vercel.app/"
+    }
+  ],
   "plugins": [
     [
       "D:\\egypt-studios-docs\\node_modules\\docusaurus-plugin-search-local\\dist\\server\\index.js",
@@ -310,6 +325,18 @@ export default {
         },
         "theme": {
           "customCss": "D:\\egypt-studios-docs\\src\\css\\custom.css"
+        },
+        "sitemap": {
+          "changefreq": "weekly",
+          "priority": 0.5,
+          "ignorePatterns": [
+            "/tags/**"
+          ],
+          "filename": "sitemap.xml"
+        },
+        "googleAnalytics": {
+          "trackingID": "UA-141789564-1",
+          "anonymizeIP": true
         }
       }
     ]
@@ -321,7 +348,6 @@ export default {
   ],
   "customFields": {},
   "themes": [],
-  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],

@@ -20,6 +20,7 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  scripts: [{src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5578412566769378', defer: true, 'data-domain': 'https://egypt-studios-docs.vercel.app/' , crossorigin:'anonymous'} , {src:'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' , integrity:'sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN' , crossorigin:'anonymous' , defer: true, 'data-domain': 'https://egypt-studios-docs.vercel.app/'}],
   plugins: [
     [
       require.resolve("docusaurus-plugin-search-local"),
@@ -158,6 +159,16 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+        googleAnalytics: {
+          trackingID: 'UA-141789564-1',
+          anonymizeIP: true,
         },
       },
     ],
