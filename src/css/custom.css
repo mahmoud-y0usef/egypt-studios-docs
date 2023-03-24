@@ -37,9 +37,9 @@ a , ul , li , b , p{
   --ifm-color-primary-dark: #ff0000b0;
   --ifm-color-primary-darker: #ff0000b0;
   --ifm-color-primary-darkest: #ff0000b0;
-  --ifm-color-primary-light: #ffffff;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary-light: #ff0000;
+  --ifm-color-primary-lighter: #ff0000;
+  --ifm-color-primary-lightest: #ff0000;
   --docusaurus-highlighted-code-line-bg: rgba(104, 19, 19, 0.3);
 }
 
@@ -66,7 +66,7 @@ a , ul , li , b , p{
 [data-theme='dark'] .DocSearch {
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
-  --docsearch-container-background: rgba(255, 255, 255, 0.7);
+  --docsearch-container-background: rgba(255, 0, 0, 0.7);
   /* Modal */
   --docsearch-modal-background: var(--ifm-background-color);
   /* Search box */
