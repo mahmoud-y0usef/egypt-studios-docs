@@ -381,6 +381,11 @@
     "default": [
       {
         "type": "jsx",
+        "permalink": "/form",
+        "source": "@site/src/pages/form.js"
+      },
+      {
+        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
@@ -394,6 +399,11 @@
           "slug": "privacy",
           "title": "privacy"
         }
+      },
+      {
+        "type": "jsx",
+        "permalink": "/roadmap",
+        "source": "@site/src/pages/roadmap.js"
       },
       {
         "type": "mdx",

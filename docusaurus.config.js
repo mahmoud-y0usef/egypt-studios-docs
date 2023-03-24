@@ -98,6 +98,7 @@ module.exports = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/privacy', label: 'privacy', position: 'left'},
         {to: '/rules', label: 'Rules', position: 'left'},
+        {to: '/roadmap', label: 'fivem courses', position: 'left'},
         {
           href: 'https://egyptstudio.tebex.io/category/2031240',
           label: 'Shop Now',

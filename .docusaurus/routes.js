@@ -53,8 +53,18 @@ export default [
     exact: true
   },
   {
+    path: '/form',
+    component: ComponentCreator('/form', 'fc1'),
+    exact: true
+  },
+  {
     path: '/privacy',
     component: ComponentCreator('/privacy', 'ba7'),
+    exact: true
+  },
+  {
+    path: '/roadmap',
+    component: ComponentCreator('/roadmap', 'c5a'),
     exact: true
   },
   {
