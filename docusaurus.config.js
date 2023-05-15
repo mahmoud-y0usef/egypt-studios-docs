@@ -86,12 +86,12 @@ module.exports = {
               // position: 'left',
               activeBaseRegex: `/qbscripts/`,
             },
-            // {
-            //   to: '/standalonescripts/intro',  // ./docs-system/Intro.md
-            //   label: 'standalone scripts',
-            //   position: 'left',
-            //   activeBaseRegex: `/standalonescripts/`,
-            // },
+            {
+              to: '/standalonescripts/intro',  // ./docs-system/Intro.md
+              label: 'standalone scripts',
+              position: 'left',
+              activeBaseRegex: `/standalonescripts/`,
+            },
           ],
         },
         
