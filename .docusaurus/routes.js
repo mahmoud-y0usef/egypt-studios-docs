@@ -127,7 +127,7 @@ export default [
   },
   {
     path: '/standalonescripts',
-    component: ComponentCreator('/standalonescripts', '0a9'),
+    component: ComponentCreator('/standalonescripts', 'fc2'),
     routes: [
       {
         path: '/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio',
@@ -143,7 +143,7 @@ export default [
       },
       {
         path: '/standalonescripts/konar_radio/Konar_Radio',
-        component: ComponentCreator('/standalonescripts/konar_radio/Konar_Radio', '2e2'),
+        component: ComponentCreator('/standalonescripts/konar_radio/Konar_Radio', 'e10'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

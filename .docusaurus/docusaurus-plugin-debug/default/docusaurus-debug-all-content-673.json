@@ -220,11 +220,11 @@
               }
             },
             {
-              "unversionedId": "konar_radio/markdown-features",
-              "id": "konar_radio/markdown-features",
-              "title": "markdown-features",
+              "unversionedId": "konar_radio/installation",
+              "id": "konar_radio/installation",
+              "title": "installation",
               "description": "[standalone] [paid] [open source] fivem konar radio",
-              "source": "@site/standalonescripts/konar_radio/markdown-features.mdx",
+              "source": "@site/standalonescripts/konar_radio/installation.mdx",
               "sourceDirName": "konar_radio",
               "slug": "/konar_radio/Konar_Radio",
               "permalink": "/standalonescripts/konar_radio/Konar_Radio",
@@ -256,7 +256,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "konar_radio/markdown-features"
+                    "id": "konar_radio/installation"
                   }
                 ],
                 "link": {

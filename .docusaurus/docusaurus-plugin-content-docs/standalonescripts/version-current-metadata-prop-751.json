@@ -23,9 +23,9 @@
         "items": [
           {
             "type": "link",
-            "label": "markdown-features",
+            "label": "installation",
             "href": "/standalonescripts/konar_radio/Konar_Radio",
-            "docId": "konar_radio/markdown-features"
+            "docId": "konar_radio/installation"
           }
         ],
         "href": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
@@ -39,9 +39,9 @@
       "description": "welcome to qb scripts",
       "sidebar": "tutorialSidebar"
     },
-    "konar_radio/markdown-features": {
-      "id": "konar_radio/markdown-features",
-      "title": "markdown-features",
+    "konar_radio/installation": {
+      "id": "konar_radio/installation",
+      "title": "installation",
       "description": "[standalone] [paid] [open source] fivem konar radio",
       "sidebar": "tutorialSidebar"
     }
