@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "intro",
-  "description": "welcome",
+  "description": "welcome to qb scripts",
   "source": "@site/standalonescripts/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
