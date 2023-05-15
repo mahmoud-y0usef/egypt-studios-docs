@@ -114,23 +114,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "script 1/markdown-features",
-              "path": "/standalonescripts/script 1/script 1",
+              "id": "konar_radio/markdown-features",
+              "path": "/standalonescripts/konar_radio/Konar_Radio",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "script 2/markdown-features",
-              "path": "/standalonescripts/script 2/script 2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-1",
-              "path": "/standalonescripts/category/script-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/script-2",
-              "path": "/standalonescripts/category/script-2",
+              "id": "/category/standalonepaidopen-source-fivem-konar-radio",
+              "path": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio",
               "sidebar": "tutorialSidebar"
             }
           ],

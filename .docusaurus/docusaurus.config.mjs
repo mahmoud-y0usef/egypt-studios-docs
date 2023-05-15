@@ -96,6 +96,11 @@ export default {
               "to": "/qbscripts/intro",
               "label": "qb scripts",
               "activeBaseRegex": "/qbscripts/"
+            },
+            {
+              "to": "/standalonescripts/intro",
+              "label": "standalone scripts",
+              "activeBaseRegex": "/standalonescripts/"
             }
           ]
         },

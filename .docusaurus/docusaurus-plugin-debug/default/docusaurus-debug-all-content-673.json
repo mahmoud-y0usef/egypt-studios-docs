@@ -215,54 +215,29 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "script 1",
-                "permalink": "/standalonescripts/category/script-1"
+                "title": "[standalone][paid][open source] fivem konar radio",
+                "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
               }
             },
             {
-              "unversionedId": "script 1/markdown-features",
-              "id": "script 1/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/standalonescripts/script 1/markdown-features.mdx",
-              "sourceDirName": "script 1",
-              "slug": "/script 1/script 1",
-              "permalink": "/standalonescripts/script 1/script 1",
+              "unversionedId": "konar_radio/markdown-features",
+              "id": "konar_radio/markdown-features",
+              "title": "markdown-features",
+              "description": "[standalone] [paid] [open source] fivem konar radio",
+              "source": "@site/standalonescripts/konar_radio/markdown-features.mdx",
+              "sourceDirName": "konar_radio",
+              "slug": "/konar_radio/Konar_Radio",
+              "permalink": "/standalonescripts/konar_radio/Konar_Radio",
               "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "slug": "script 1"
+                "slug": "Konar_Radio"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "script 1",
-                "permalink": "/standalonescripts/category/script-1"
-              },
-              "next": {
-                "title": "script 2",
-                "permalink": "/standalonescripts/category/script-2"
-              }
-            },
-            {
-              "unversionedId": "script 2/markdown-features",
-              "id": "script 2/markdown-features",
-              "title": "installation",
-              "description": "",
-              "source": "@site/standalonescripts/script 2/markdown-features.mdx",
-              "sourceDirName": "script 2",
-              "slug": "/script 2/script 2",
-              "permalink": "/standalonescripts/script 2/script 2",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "slug": "script 2"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "script 2",
-                "permalink": "/standalonescripts/category/script-2"
+                "title": "[standalone][paid][open source] fivem konar radio",
+                "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
               }
             }
           ],
@@ -275,36 +250,19 @@
               },
               {
                 "type": "category",
-                "label": "script 1",
+                "label": "[standalone][paid][open source] fivem konar radio",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "script 1/markdown-features"
+                    "id": "konar_radio/markdown-features"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/script-1",
-                  "permalink": "/standalonescripts/category/script-1"
-                }
-              },
-              {
-                "type": "category",
-                "label": "script 2",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "script 2/markdown-features"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/script-2",
-                  "permalink": "/standalonescripts/category/script-2"
+                  "slug": "/category/standalonepaidopen-source-fivem-konar-radio",
+                  "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
                 }
               }
             ]

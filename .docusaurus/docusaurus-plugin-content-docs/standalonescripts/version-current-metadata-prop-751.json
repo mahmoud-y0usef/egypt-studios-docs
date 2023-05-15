@@ -17,33 +17,18 @@
       },
       {
         "type": "category",
-        "label": "script 1",
+        "label": "[standalone][paid][open source] fivem konar radio",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "installation",
-            "href": "/standalonescripts/script 1/script 1",
-            "docId": "script 1/markdown-features"
+            "label": "markdown-features",
+            "href": "/standalonescripts/konar_radio/Konar_Radio",
+            "docId": "konar_radio/markdown-features"
           }
         ],
-        "href": "/standalonescripts/category/script-1"
-      },
-      {
-        "type": "category",
-        "label": "script 2",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "installation",
-            "href": "/standalonescripts/script 2/script 2",
-            "docId": "script 2/markdown-features"
-          }
-        ],
-        "href": "/standalonescripts/category/script-2"
+        "href": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
       }
     ]
   },
@@ -54,16 +39,10 @@
       "description": "welcome",
       "sidebar": "tutorialSidebar"
     },
-    "script 1/markdown-features": {
-      "id": "script 1/markdown-features",
-      "title": "installation",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "script 2/markdown-features": {
-      "id": "script 2/markdown-features",
-      "title": "installation",
-      "description": "",
+    "konar_radio/markdown-features": {
+      "id": "konar_radio/markdown-features",
+      "title": "markdown-features",
+      "description": "[standalone] [paid] [open source] fivem konar radio",
       "sidebar": "tutorialSidebar"
     }
   }

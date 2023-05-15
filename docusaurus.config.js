@@ -89,7 +89,7 @@ module.exports = {
             {
               to: '/standalonescripts/intro',  // ./docs-system/Intro.md
               label: 'standalone scripts',
-              position: 'left',
+              // position: 'left',
               activeBaseRegex: `/standalonescripts/`,
             },
           ],
