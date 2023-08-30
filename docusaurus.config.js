@@ -60,6 +60,10 @@ module.exports = {
     metadata: [{property: 'og:title', content: 'egypt studios development'}],
     metadata: [{property: 'og:description', content: 'programming new things that affect the community of the fivem or more'}],
     metadata: [{property: 'og:image', content: 'https://egypt-studios-docs.vercel.app/img/egypt-studios.png'}],
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
     navbar: {
       hideOnScroll: true,
       // title: 'egypt studios',
@@ -110,7 +114,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       links: [
         {
           title: 'Society',

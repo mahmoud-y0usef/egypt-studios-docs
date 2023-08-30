@@ -5,11 +5,35 @@
  */
 
 /* You can override the default Infima variables here. */
-.hero , footer{
+.hero--primary  , .footer{
   background: #200122;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
+}
+ .footer a{
+  color: white;
+}
+h2 a , .pagination-nav__label{
+  color: rgb(0, 0, 0);
+
+}
+li a{
+  color:black;
+}
+
+h2 a:hover , .avatar__name a:hover , li a:hover{
+  color:var(--ifm-navbar-link-hover-color);
+}
+.card h2 , .card p{
+  color: black;
+}
+.avatar__name a{
+  color: black;
+}
+
+.pagination-nav__link .pagination-nav__link--prev{
+  background-color: none;
 }
 .pagination-nav__sublabel , .hero{
   color: white;
@@ -31,17 +55,7 @@ a , ul , li , b , p{
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #ff0000b0;
-  --ifm-color-primary-dark: #ff0000b0;
-  --ifm-color-primary-darker: #ff0000b0;
-  --ifm-color-primary-darkest: #ff0000b0;
-  --ifm-color-primary-light: #ff0000;
-  --ifm-color-primary-lighter: #ff0000;
-  --ifm-color-primary-lightest: #ff0000;
-  --docusaurus-highlighted-code-line-bg: rgba(104, 19, 19, 0.3);
-}
+
 
 
 
@@ -63,27 +77,7 @@ a , ul , li , b , p{
   --docsearch-footer-background: var(--ifm-color-white);
 }
 
-[data-theme='dark'] .DocSearch {
-  --docsearch-text-color: var(--ifm-font-color-base);
-  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
-  --docsearch-container-background: rgba(255, 0, 0, 0.7);
-  /* Modal */
-  --docsearch-modal-background: var(--ifm-background-color);
-  /* Search box */
-  --docsearch-searchbox-background: var(--ifm-background-color);
-  --docsearch-searchbox-focus-background: var(--ifm-color-black);
-  /* Hit */
-  --docsearch-hit-color: var(--ifm-font-color-base);
-  --docsearch-hit-active-color: red;
-  --docsearch-hit-background: var(--ifm-color-emphasis-100);
-  /* Footer */
-  --docsearch-footer-background: var(--ifm-background-surface-color);
-  --docsearch-key-gradient: linear-gradient(
-    -26.5deg,
-    var(--ifm-color-emphasis-200) 0%,
-    var(--ifm-color-emphasis-100) 100%
-  );
-}
+
 .carousel-indicators{
  position: absolute;
  top: 400px;

@@ -75,6 +75,11 @@ export default {
         "content": "https://egypt-studios-docs.vercel.app/img/egypt-studios.png"
       }
     ],
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
+    },
     "navbar": {
       "hideOnScroll": true,
       "logo": {
@@ -132,7 +137,6 @@ export default {
       ]
     },
     "footer": {
-      "style": "dark",
       "links": [
         {
           "title": "Society",
@@ -161,12 +165,8 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 💗 egypt studios "
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "copyright": "Copyright © 2023 💗 egypt studios ",
+      "style": "light"
     },
     "docs": {
       "versionPersistence": "localStorage",

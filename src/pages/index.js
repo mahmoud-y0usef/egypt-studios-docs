@@ -11,29 +11,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)} >
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-      <div className="container">
-      <Carousel>
-      <Carousel.Item>
-        <img style={{width:"100px" , height:"400px"}}
-          className="d-block w-50"
-          src="https://media.discordapp.net/attachments/923389102890549278/1072121769873395763/advance_cloak_room.png"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3 style={{marginLeft:"410px" , marginBottom:"50px"}}>[esx,qb][paid] konar_advancedcloakroom</h3>
-          <button className='btn-slide' style={{marginLeft:"410px" , marginBottom:"50px"}}><a target={"_blank"} href='https://egyptstudio.tebex.io/package/5058633'>Buy Now</a></button>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-        {/* <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/esxscripts/intro">
-            ️  go now
-          </Link>
-        </div> */}
-      </div>
+    
     </header>
   );
 }
