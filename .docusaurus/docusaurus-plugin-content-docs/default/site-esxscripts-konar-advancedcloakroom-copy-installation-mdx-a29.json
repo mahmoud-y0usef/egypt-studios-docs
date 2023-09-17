@@ -1,0 +1,21 @@
+{
+  "unversionedId": "konar_advancedcloakroom copy/installation",
+  "id": "konar_advancedcloakroom copy/installation",
+  "title": "installation",
+  "description": "esx konar_advancedcloakroom",
+  "source": "@site/esxscripts/konar_advancedcloakroom copy/installation.mdx",
+  "sourceDirName": "konar_advancedcloakroom copy",
+  "slug": "/konar_advancedcloakroom copy/esx_konar_advancedcloakroom",
+  "permalink": "/esxscripts/konar_advancedcloakroom copy/esx_konar_advancedcloakroom",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_konar_advancedcloakroom"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid]konar_advancedcloakroom",
+    "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom-1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid]car",
+  "slug": "/category/esxpaidcar",
+  "permalink": "/esxscripts/category/esxpaidcar",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/esxscripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/car_remote/esx_konar_advancedcloakroom"
+    }
+  }
+}

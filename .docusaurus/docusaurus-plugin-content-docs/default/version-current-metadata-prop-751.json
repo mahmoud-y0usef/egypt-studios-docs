@@ -17,6 +17,21 @@
       },
       {
         "type": "category",
+        "label": "[esx][paid]car_remote",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/esxscripts/car_remote/esx_car_remote",
+            "docId": "car_remote/installation"
+          }
+        ],
+        "href": "/esxscripts/category/esxpaidcar_remote"
+      },
+      {
+        "type": "category",
         "label": "[esx][paid]konar_advancedcloakroom",
         "collapsible": true,
         "collapsed": true,
@@ -33,6 +48,12 @@
     ]
   },
   "docs": {
+    "car_remote/installation": {
+      "id": "car_remote/installation",
+      "title": "installation",
+      "description": "* ## Buy Now",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "intro",

@@ -18,6 +18,31 @@
           "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "unversionedId": "car_remote/installation",
+              "id": "car_remote/installation",
+              "title": "installation",
+              "description": "* ## Buy Now",
+              "source": "@site/esxscripts/car_remote/installation.mdx",
+              "sourceDirName": "car_remote",
+              "slug": "/car_remote/esx_car_remote",
+              "permalink": "/esxscripts/car_remote/esx_car_remote",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "esx_car_remote"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[esx][paid]car_remote",
+                "permalink": "/esxscripts/category/esxpaidcar_remote"
+              },
+              "next": {
+                "title": "[esx][paid]konar_advancedcloakroom",
+                "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "intro",
@@ -35,8 +60,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[esx][paid]konar_advancedcloakroom",
-                "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+                "title": "[esx][paid]car_remote",
+                "permalink": "/esxscripts/category/esxpaidcar_remote"
               }
             },
             {
@@ -67,6 +92,23 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "[esx][paid]car_remote",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "car_remote/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/esxpaidcar_remote",
+                  "permalink": "/esxscripts/category/esxpaidcar_remote"
+                }
               },
               {
                 "type": "category",

@@ -104,12 +104,20 @@
       "plugin": "plugin---search-6-d-6-15a"
     }
   },
-  "/esxscripts-e0f": {
+  "/esxscripts-a55": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---esxscriptsfd-7-4be"
     },
     "versionMetadata": "versionMetadata---esxscripts-935-424"
+  },
+  "/esxscripts/car_remote/esx_car_remote-871": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---esxscripts-car-remote-esx-konar-advancedcloakroom-66-a-a39"
+  },
+  "/esxscripts/category/esxpaidcar_remote-c6e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---esxscripts-category-esxpaidcar-remote-3-f-8-65b"
   },
   "/esxscripts/category/esxpaidkonar_advancedcloakroom-c64": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",

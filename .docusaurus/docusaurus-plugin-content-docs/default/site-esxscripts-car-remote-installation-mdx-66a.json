@@ -1,0 +1,25 @@
+{
+  "unversionedId": "car_remote/installation",
+  "id": "car_remote/installation",
+  "title": "installation",
+  "description": "* ## Buy Now",
+  "source": "@site/esxscripts/car_remote/installation.mdx",
+  "sourceDirName": "car_remote",
+  "slug": "/car_remote/esx_car_remote",
+  "permalink": "/esxscripts/car_remote/esx_car_remote",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_car_remote"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid]car_remote",
+    "permalink": "/esxscripts/category/esxpaidcar_remote"
+  },
+  "next": {
+    "title": "[esx][paid]konar_advancedcloakroom",
+    "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+  }
+}

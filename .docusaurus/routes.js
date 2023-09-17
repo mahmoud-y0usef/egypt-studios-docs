@@ -79,8 +79,20 @@ export default [
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', 'e0f'),
+    component: ComponentCreator('/esxscripts', 'a55'),
     routes: [
+      {
+        path: '/esxscripts/car_remote/esx_car_remote',
+        component: ComponentCreator('/esxscripts/car_remote/esx_car_remote', '871'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/category/esxpaidcar_remote',
+        component: ComponentCreator('/esxscripts/category/esxpaidcar_remote', 'c6e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/esxscripts/category/esxpaidkonar_advancedcloakroom',
         component: ComponentCreator('/esxscripts/category/esxpaidkonar_advancedcloakroom', 'c64'),
