@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid]car_remote",
+  "slug": "/category/esxpaidcar_remote",
+  "permalink": "/qbscripts/category/esxpaidcar_remote",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/qbscripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/qbscripts/car_remote/esx_car_remote"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "car_remote/installation",
+  "id": "car_remote/installation",
+  "title": "installation",
+  "description": "car remote system",
+  "source": "@site/qbscripts/car_remote/installation.mdx",
+  "sourceDirName": "car_remote",
+  "slug": "/car_remote/qb_car_remote",
+  "permalink": "/qbscripts/car_remote/qb_car_remote",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "qb_car_remote"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[qb][paid]car_remote",
+    "permalink": "/qbscripts/category/qbpaidcar_remote"
+  },
+  "next": {
+    "title": "[qb][paid]konar_advancedcloakroom",
+    "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+  }
+}

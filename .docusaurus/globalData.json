@@ -80,6 +80,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "car_remote/installation",
+              "path": "/qbscripts/car_remote/qb_car_remote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/qbscripts/intro",
               "sidebar": "tutorialSidebar"
@@ -87,6 +92,11 @@
             {
               "id": "konar_advancedcloakroom/installation",
               "path": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/qbpaidcar_remote",
+              "path": "/qbscripts/category/qbpaidcar_remote",
               "sidebar": "tutorialSidebar"
             },
             {

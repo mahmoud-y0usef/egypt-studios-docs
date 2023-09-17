@@ -2,7 +2,7 @@
   "unversionedId": "car_remote/installation",
   "id": "car_remote/installation",
   "title": "installation",
-  "description": "* ## Buy Now",
+  "description": "car remote system",
   "source": "@site/esxscripts/car_remote/installation.mdx",
   "sourceDirName": "car_remote",
   "slug": "/car_remote/esx_car_remote",

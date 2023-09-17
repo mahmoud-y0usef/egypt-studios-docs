@@ -17,6 +17,21 @@
       },
       {
         "type": "category",
+        "label": "[qb][paid]car_remote",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/qbscripts/car_remote/qb_car_remote",
+            "docId": "car_remote/installation"
+          }
+        ],
+        "href": "/qbscripts/category/qbpaidcar_remote"
+      },
+      {
+        "type": "category",
         "label": "[qb][paid]konar_advancedcloakroom",
         "collapsible": true,
         "collapsed": true,
@@ -33,6 +48,12 @@
     ]
   },
   "docs": {
+    "car_remote/installation": {
+      "id": "car_remote/installation",
+      "title": "installation",
+      "description": "car remote system",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "intro",

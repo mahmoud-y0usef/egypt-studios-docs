@@ -2,7 +2,7 @@
   "unversionedId": "konar_advancedcloakroom/installation",
   "id": "konar_advancedcloakroom/installation",
   "title": "installation",
-  "description": "esx konar_advancedcloakroom",
+  "description": "esx konar advancedcloakroom",
   "source": "@site/esxscripts/konar_advancedcloakroom/installation.mdx",
   "sourceDirName": "konar_advancedcloakroom",
   "slug": "/konar_advancedcloakroom/esx_konar_advancedcloakroom",

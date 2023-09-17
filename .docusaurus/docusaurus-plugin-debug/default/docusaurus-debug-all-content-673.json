@@ -21,7 +21,7 @@
               "unversionedId": "car_remote/installation",
               "id": "car_remote/installation",
               "title": "installation",
-              "description": "* ## Buy Now",
+              "description": "car remote system",
               "source": "@site/esxscripts/car_remote/installation.mdx",
               "sourceDirName": "car_remote",
               "slug": "/car_remote/esx_car_remote",
@@ -68,7 +68,7 @@
               "unversionedId": "konar_advancedcloakroom/installation",
               "id": "konar_advancedcloakroom/installation",
               "title": "installation",
-              "description": "esx konar_advancedcloakroom",
+              "description": "esx konar advancedcloakroom",
               "source": "@site/esxscripts/konar_advancedcloakroom/installation.mdx",
               "sourceDirName": "konar_advancedcloakroom",
               "slug": "/konar_advancedcloakroom/esx_konar_advancedcloakroom",
@@ -150,6 +150,31 @@
           "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-qbscripts\\current",
           "docs": [
             {
+              "unversionedId": "car_remote/installation",
+              "id": "car_remote/installation",
+              "title": "installation",
+              "description": "car remote system",
+              "source": "@site/qbscripts/car_remote/installation.mdx",
+              "sourceDirName": "car_remote",
+              "slug": "/car_remote/qb_car_remote",
+              "permalink": "/qbscripts/car_remote/qb_car_remote",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "qb_car_remote"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[qb][paid]car_remote",
+                "permalink": "/qbscripts/category/qbpaidcar_remote"
+              },
+              "next": {
+                "title": "[qb][paid]konar_advancedcloakroom",
+                "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "intro",
@@ -167,8 +192,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[qb][paid]konar_advancedcloakroom",
-                "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+                "title": "[qb][paid]car_remote",
+                "permalink": "/qbscripts/category/qbpaidcar_remote"
               }
             },
             {
@@ -199,6 +224,23 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "[qb][paid]car_remote",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "car_remote/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/qbpaidcar_remote",
+                  "permalink": "/qbscripts/category/qbpaidcar_remote"
+                }
               },
               {
                 "type": "category",

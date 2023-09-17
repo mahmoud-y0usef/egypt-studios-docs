@@ -115,8 +115,20 @@ export default [
   },
   {
     path: '/qbscripts',
-    component: ComponentCreator('/qbscripts', '41c'),
+    component: ComponentCreator('/qbscripts', '068'),
     routes: [
+      {
+        path: '/qbscripts/car_remote/qb_car_remote',
+        component: ComponentCreator('/qbscripts/car_remote/qb_car_remote', 'e4b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/qbscripts/category/qbpaidcar_remote',
+        component: ComponentCreator('/qbscripts/category/qbpaidcar_remote', '018'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/qbscripts/category/qbpaidkonar_advancedcloakroom',
         component: ComponentCreator('/qbscripts/category/qbpaidkonar_advancedcloakroom', '503'),

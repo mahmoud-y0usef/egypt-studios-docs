@@ -51,7 +51,7 @@
     "car_remote/installation": {
       "id": "car_remote/installation",
       "title": "installation",
-      "description": "* ## Buy Now",
+      "description": "car remote system",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -63,7 +63,7 @@
     "konar_advancedcloakroom/installation": {
       "id": "konar_advancedcloakroom/installation",
       "title": "installation",
-      "description": "esx konar_advancedcloakroom",
+      "description": "esx konar advancedcloakroom",
       "sidebar": "tutorialSidebar"
     }
   }
