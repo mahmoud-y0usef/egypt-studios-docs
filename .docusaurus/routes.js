@@ -79,11 +79,17 @@ export default [
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', 'f38'),
+    component: ComponentCreator('/esxscripts', '611'),
     routes: [
       {
         path: '/esxscripts/car_remote/esx_car_remote',
         component: ComponentCreator('/esxscripts/car_remote/esx_car_remote', '871'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/category/esxpaid-pilot_job',
+        component: ComponentCreator('/esxscripts/category/esxpaid-pilot_job', '5b5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -122,16 +128,28 @@ export default [
         component: ComponentCreator('/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom', '9f3'),
         exact: true,
         sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/pilot_job/esx_pilot_job',
+        component: ComponentCreator('/esxscripts/pilot_job/esx_pilot_job', 'd25'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       }
     ]
   },
   {
     path: '/qbscripts',
-    component: ComponentCreator('/qbscripts', '068'),
+    component: ComponentCreator('/qbscripts', '08a'),
     routes: [
       {
         path: '/qbscripts/car_remote/qb_car_remote',
         component: ComponentCreator('/qbscripts/car_remote/qb_car_remote', 'e4b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/qbscripts/category/qbpaid-pilot_job',
+        component: ComponentCreator('/qbscripts/category/qbpaid-pilot_job', '35c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -156,6 +174,12 @@ export default [
       {
         path: '/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom',
         component: ComponentCreator('/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom', 'cf5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/qbscripts/pilot_job/qb_pilot_job',
+        component: ComponentCreator('/qbscripts/pilot_job/qb_pilot_job', 'c3f'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

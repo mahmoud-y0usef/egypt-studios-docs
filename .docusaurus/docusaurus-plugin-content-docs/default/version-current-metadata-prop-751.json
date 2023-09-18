@@ -59,6 +59,21 @@
           }
         ],
         "href": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+      },
+      {
+        "type": "category",
+        "label": "[esx][paid] pilot_job",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/esxscripts/pilot_job/esx_pilot_job",
+            "docId": "pilot_job/installation"
+          }
+        ],
+        "href": "/esxscripts/category/esxpaid-pilot_job"
       }
     ]
   },
@@ -85,6 +100,12 @@
       "id": "konar_advancedcloakroom/installation",
       "title": "installation",
       "description": "esx konar advancedcloakroom",
+      "sidebar": "tutorialSidebar"
+    },
+    "pilot_job/installation": {
+      "id": "pilot_job/installation",
+      "title": "installation",
+      "description": "pilot job",
       "sidebar": "tutorialSidebar"
     }
   }

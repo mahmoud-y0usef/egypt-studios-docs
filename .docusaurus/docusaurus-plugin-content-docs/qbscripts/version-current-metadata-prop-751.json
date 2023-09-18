@@ -44,6 +44,21 @@
           }
         ],
         "href": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+      },
+      {
+        "type": "category",
+        "label": "[qb][paid] pilot_job",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/qbscripts/pilot_job/qb_pilot_job",
+            "docId": "pilot_job/installation"
+          }
+        ],
+        "href": "/qbscripts/category/qbpaid-pilot_job"
       }
     ]
   },
@@ -64,6 +79,12 @@
       "id": "konar_advancedcloakroom/installation",
       "title": "installation",
       "description": "qb konar_advancedcloakroom",
+      "sidebar": "tutorialSidebar"
+    },
+    "pilot_job/installation": {
+      "id": "pilot_job/installation",
+      "title": "installation",
+      "description": "pilot job",
       "sidebar": "tutorialSidebar"
     }
   }

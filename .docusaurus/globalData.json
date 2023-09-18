@@ -51,6 +51,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "pilot_job/installation",
+              "path": "/esxscripts/pilot_job/esx_pilot_job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/esxpaidcar_remote",
               "path": "/esxscripts/category/esxpaidcar_remote",
               "sidebar": "tutorialSidebar"
@@ -63,6 +68,11 @@
             {
               "id": "/category/esxpaidkonar_advancedcloakroom",
               "path": "/esxscripts/category/esxpaidkonar_advancedcloakroom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/esxpaid-pilot_job",
+              "path": "/esxscripts/category/esxpaid-pilot_job",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -105,6 +115,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "pilot_job/installation",
+              "path": "/qbscripts/pilot_job/qb_pilot_job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/qbpaidcar_remote",
               "path": "/qbscripts/category/qbpaidcar_remote",
               "sidebar": "tutorialSidebar"
@@ -112,6 +127,11 @@
             {
               "id": "/category/qbpaidkonar_advancedcloakroom",
               "path": "/qbscripts/category/qbpaidkonar_advancedcloakroom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/qbpaid-pilot_job",
+              "path": "/qbscripts/category/qbpaid-pilot_job",
               "sidebar": "tutorialSidebar"
             }
           ],

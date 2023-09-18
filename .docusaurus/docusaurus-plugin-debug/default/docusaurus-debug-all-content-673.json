@@ -108,6 +108,31 @@
               "previous": {
                 "title": "[esx][paid]konar_advancedcloakroom",
                 "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+              },
+              "next": {
+                "title": "[esx][paid] pilot_job",
+                "permalink": "/esxscripts/category/esxpaid-pilot_job"
+              }
+            },
+            {
+              "unversionedId": "pilot_job/installation",
+              "id": "pilot_job/installation",
+              "title": "installation",
+              "description": "pilot job",
+              "source": "@site/esxscripts/pilot_job/installation.mdx",
+              "sourceDirName": "pilot_job",
+              "slug": "/pilot_job/esx_pilot_job",
+              "permalink": "/esxscripts/pilot_job/esx_pilot_job",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "esx_pilot_job"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[esx][paid] pilot_job",
+                "permalink": "/esxscripts/category/esxpaid-pilot_job"
               }
             }
           ],
@@ -167,6 +192,23 @@
                   "type": "generated-index",
                   "slug": "/category/esxpaidkonar_advancedcloakroom",
                   "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[esx][paid] pilot_job",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "pilot_job/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/esxpaid-pilot_job",
+                  "permalink": "/esxscripts/category/esxpaid-pilot_job"
                 }
               }
             ]
@@ -257,6 +299,31 @@
               "previous": {
                 "title": "[qb][paid]konar_advancedcloakroom",
                 "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+              },
+              "next": {
+                "title": "[qb][paid] pilot_job",
+                "permalink": "/qbscripts/category/qbpaid-pilot_job"
+              }
+            },
+            {
+              "unversionedId": "pilot_job/installation",
+              "id": "pilot_job/installation",
+              "title": "installation",
+              "description": "pilot job",
+              "source": "@site/qbscripts/pilot_job/installation.mdx",
+              "sourceDirName": "pilot_job",
+              "slug": "/pilot_job/qb_pilot_job",
+              "permalink": "/qbscripts/pilot_job/qb_pilot_job",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "qb_pilot_job"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[qb][paid] pilot_job",
+                "permalink": "/qbscripts/category/qbpaid-pilot_job"
               }
             }
           ],
@@ -299,6 +366,23 @@
                   "type": "generated-index",
                   "slug": "/category/qbpaidkonar_advancedcloakroom",
                   "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[qb][paid] pilot_job",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "pilot_job/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/qbpaid-pilot_job",
+                  "permalink": "/qbscripts/category/qbpaid-pilot_job"
                 }
               }
             ]
