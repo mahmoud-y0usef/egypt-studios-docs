@@ -38,6 +38,31 @@
                 "permalink": "/esxscripts/category/esxpaidcar_remote"
               },
               "next": {
+                "title": "[esx][paid]flight_job",
+                "permalink": "/esxscripts/category/esxpaidflight_job"
+              }
+            },
+            {
+              "unversionedId": "flight_job/installation",
+              "id": "flight_job/installation",
+              "title": "installation",
+              "description": "flight job",
+              "source": "@site/esxscripts/flight_job/installation.mdx",
+              "sourceDirName": "flight_job",
+              "slug": "/flight_job/esx_flight_job",
+              "permalink": "/esxscripts/flight_job/esx_flight_job",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "esx_flight_job"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[esx][paid]flight_job",
+                "permalink": "/esxscripts/category/esxpaidflight_job"
+              },
+              "next": {
                 "title": "[esx][paid]konar_advancedcloakroom",
                 "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
               }
@@ -108,6 +133,23 @@
                   "type": "generated-index",
                   "slug": "/category/esxpaidcar_remote",
                   "permalink": "/esxscripts/category/esxpaidcar_remote"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[esx][paid]flight_job",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "flight_job/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/esxpaidflight_job",
+                  "permalink": "/esxscripts/category/esxpaidflight_job"
                 }
               },
               {

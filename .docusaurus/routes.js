@@ -79,7 +79,7 @@ export default [
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', 'a55'),
+    component: ComponentCreator('/esxscripts', 'f38'),
     routes: [
       {
         path: '/esxscripts/car_remote/esx_car_remote',
@@ -94,8 +94,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/esxscripts/category/esxpaidflight_job',
+        component: ComponentCreator('/esxscripts/category/esxpaidflight_job', '971'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/esxscripts/category/esxpaidkonar_advancedcloakroom',
         component: ComponentCreator('/esxscripts/category/esxpaidkonar_advancedcloakroom', 'c64'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/flight_job/esx_flight_job',
+        component: ComponentCreator('/esxscripts/flight_job/esx_flight_job', '033'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

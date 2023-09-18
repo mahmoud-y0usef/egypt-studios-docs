@@ -32,6 +32,21 @@
       },
       {
         "type": "category",
+        "label": "[esx][paid]flight_job",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/esxscripts/flight_job/esx_flight_job",
+            "docId": "flight_job/installation"
+          }
+        ],
+        "href": "/esxscripts/category/esxpaidflight_job"
+      },
+      {
+        "type": "category",
         "label": "[esx][paid]konar_advancedcloakroom",
         "collapsible": true,
         "collapsed": true,
@@ -52,6 +67,12 @@
       "id": "car_remote/installation",
       "title": "installation",
       "description": "car remote system",
+      "sidebar": "tutorialSidebar"
+    },
+    "flight_job/installation": {
+      "id": "flight_job/installation",
+      "title": "installation",
+      "description": "flight job",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

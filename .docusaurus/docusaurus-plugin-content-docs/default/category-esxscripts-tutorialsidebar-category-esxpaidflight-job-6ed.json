@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid]flight_job",
+  "slug": "/category/esxpaidflight_job",
+  "permalink": "/esxscripts/category/esxpaidflight_job",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/esxscripts/car_remote/esx_car_remote"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/flight_job/esx_flight_job"
+    }
+  }
+}
