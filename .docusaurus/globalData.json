@@ -20,6 +20,65 @@
     }
   },
   "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/esxscripts",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/esxscripts",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "car_remote/installation",
+              "path": "/esxscripts/car_remote/esx_car_remote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "flight_job/installation",
+              "path": "/esxscripts/flight_job/esx_flight_job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/esxscripts/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "konar_advancedcloakroom/installation",
+              "path": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/esxpaidcar_remote",
+              "path": "/esxscripts/category/esxpaidcar_remote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/esxpaidflight_job",
+              "path": "/esxscripts/category/esxpaidflight_job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/esxpaidkonar_advancedcloakroom",
+              "path": "/esxscripts/category/esxpaidkonar_advancedcloakroom",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/esxscripts/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "qbscripts": {
       "path": "/qbscripts",
       "versions": [
@@ -110,65 +169,6 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/standalonescripts/intro",
-                "label": "intro"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "default": {
-      "path": "/esxscripts",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/esxscripts",
-          "mainDocId": "intro",
-          "docs": [
-            {
-              "id": "car_remote/installation",
-              "path": "/esxscripts/car_remote/esx_car_remote",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "flight_job/installation",
-              "path": "/esxscripts/flight_job/esx_flight_job",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/esxscripts/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "konar_advancedcloakroom/installation",
-              "path": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/esxpaidcar_remote",
-              "path": "/esxscripts/category/esxpaidcar_remote",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/esxpaidflight_job",
-              "path": "/esxscripts/category/esxpaidflight_job",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/esxpaidkonar_advancedcloakroom",
-              "path": "/esxscripts/category/esxpaidkonar_advancedcloakroom",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/esxscripts/intro",
                 "label": "intro"
               }
             }
