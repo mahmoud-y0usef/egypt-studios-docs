@@ -79,7 +79,7 @@ export default [
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', '611'),
+    component: ComponentCreator('/esxscripts', 'a44'),
     routes: [
       {
         path: '/esxscripts/car_remote/esx_car_remote',
@@ -88,26 +88,32 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/esxscripts/category/esxpaid-pilot_job',
-        component: ComponentCreator('/esxscripts/category/esxpaid-pilot_job', '5b5'),
+        path: '/esxscripts/category/esxpaid-car-remote',
+        component: ComponentCreator('/esxscripts/category/esxpaid-car-remote', 'b89'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/esxscripts/category/esxpaidcar_remote',
-        component: ComponentCreator('/esxscripts/category/esxpaidcar_remote', 'c6e'),
+        path: '/esxscripts/category/esxpaid-cloak-room',
+        component: ComponentCreator('/esxscripts/category/esxpaid-cloak-room', 'bce'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/esxscripts/category/esxpaidflight_job',
-        component: ComponentCreator('/esxscripts/category/esxpaidflight_job', '971'),
+        path: '/esxscripts/category/esxpaid-flight-job',
+        component: ComponentCreator('/esxscripts/category/esxpaid-flight-job', '906'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/esxscripts/category/esxpaidkonar_advancedcloakroom',
-        component: ComponentCreator('/esxscripts/category/esxpaidkonar_advancedcloakroom', 'c64'),
+        path: '/esxscripts/category/esxpaid-pilot-job',
+        component: ComponentCreator('/esxscripts/category/esxpaid-pilot-job', '9aa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/cloak_room/esx_cloakroom',
+        component: ComponentCreator('/esxscripts/cloak_room/esx_cloakroom', 'f32'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -124,12 +130,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom',
-        component: ComponentCreator('/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom', '9f3'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/esxscripts/pilot_job/esx_pilot_job',
         component: ComponentCreator('/esxscripts/pilot_job/esx_pilot_job', 'd25'),
         exact: true,
@@ -139,7 +139,7 @@ export default [
   },
   {
     path: '/qbscripts',
-    component: ComponentCreator('/qbscripts', '08a'),
+    component: ComponentCreator('/qbscripts', '285'),
     routes: [
       {
         path: '/qbscripts/car_remote/qb_car_remote',
@@ -148,32 +148,32 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/qbscripts/category/qbpaid-pilot_job',
-        component: ComponentCreator('/qbscripts/category/qbpaid-pilot_job', '35c'),
+        path: '/qbscripts/category/qbpaid-car-remote',
+        component: ComponentCreator('/qbscripts/category/qbpaid-car-remote', '0aa'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/qbscripts/category/qbpaidcar_remote',
-        component: ComponentCreator('/qbscripts/category/qbpaidcar_remote', '018'),
+        path: '/qbscripts/category/qbpaid-cloak-room',
+        component: ComponentCreator('/qbscripts/category/qbpaid-cloak-room', 'ce5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/qbscripts/category/qbpaidkonar_advancedcloakroom',
-        component: ComponentCreator('/qbscripts/category/qbpaidkonar_advancedcloakroom', '503'),
+        path: '/qbscripts/category/qbpaid-pilot-job',
+        component: ComponentCreator('/qbscripts/category/qbpaid-pilot-job', 'df8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/qbscripts/cloak_room/qb_cloakroom',
+        component: ComponentCreator('/qbscripts/cloak_room/qb_cloakroom', '844'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/qbscripts/intro',
         component: ComponentCreator('/qbscripts/intro', '359'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom',
-        component: ComponentCreator('/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom', 'cf5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

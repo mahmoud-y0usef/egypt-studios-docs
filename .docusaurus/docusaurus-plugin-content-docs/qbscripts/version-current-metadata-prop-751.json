@@ -17,7 +17,7 @@
       },
       {
         "type": "category",
-        "label": "[qb][paid]car_remote",
+        "label": "[qb][paid] car remote",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -28,26 +28,26 @@
             "docId": "car_remote/installation"
           }
         ],
-        "href": "/qbscripts/category/qbpaidcar_remote"
+        "href": "/qbscripts/category/qbpaid-car-remote"
       },
       {
         "type": "category",
-        "label": "[qb][paid]konar_advancedcloakroom",
+        "label": "[qb][paid] cloak room",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "installation",
-            "href": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
-            "docId": "konar_advancedcloakroom/installation"
+            "href": "/qbscripts/cloak_room/qb_cloakroom",
+            "docId": "cloak_room/installation"
           }
         ],
-        "href": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+        "href": "/qbscripts/category/qbpaid-cloak-room"
       },
       {
         "type": "category",
-        "label": "[qb][paid] pilot_job",
+        "label": "[qb][paid] pilot job",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -58,7 +58,7 @@
             "docId": "pilot_job/installation"
           }
         ],
-        "href": "/qbscripts/category/qbpaid-pilot_job"
+        "href": "/qbscripts/category/qbpaid-pilot-job"
       }
     ]
   },
@@ -69,16 +69,16 @@
       "description": "car remote system",
       "sidebar": "tutorialSidebar"
     },
+    "cloak_room/installation": {
+      "id": "cloak_room/installation",
+      "title": "installation",
+      "description": "cloak room",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "intro",
       "description": "welcome to qb scripts",
-      "sidebar": "tutorialSidebar"
-    },
-    "konar_advancedcloakroom/installation": {
-      "id": "konar_advancedcloakroom/installation",
-      "title": "installation",
-      "description": "qb konar_advancedcloakroom",
       "sidebar": "tutorialSidebar"
     },
     "pilot_job/installation": {

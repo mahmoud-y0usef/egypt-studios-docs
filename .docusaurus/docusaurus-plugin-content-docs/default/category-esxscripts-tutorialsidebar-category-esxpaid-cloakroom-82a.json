@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid] cloakroom",
+  "slug": "/category/esxpaid-cloakroom",
+  "permalink": "/esxscripts/category/esxpaid-cloakroom",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/esxscripts/flight_job/esx_flight_job"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom"
+    }
+  }
+}

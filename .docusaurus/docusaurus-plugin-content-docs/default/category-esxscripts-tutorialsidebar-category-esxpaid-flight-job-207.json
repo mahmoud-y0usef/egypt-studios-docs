@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid] flight job",
+  "slug": "/category/esxpaid-flight-job",
+  "permalink": "/esxscripts/category/esxpaid-flight-job",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/esxscripts/cloak_room/esx_cloakroom"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/flight_job/esx_flight_job"
+    }
+  }
+}

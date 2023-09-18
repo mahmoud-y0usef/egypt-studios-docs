@@ -34,12 +34,37 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "[esx][paid]car_remote",
-                "permalink": "/esxscripts/category/esxpaidcar_remote"
+                "title": "[esx][paid] car remote",
+                "permalink": "/esxscripts/category/esxpaid-car-remote"
               },
               "next": {
-                "title": "[esx][paid]flight_job",
-                "permalink": "/esxscripts/category/esxpaidflight_job"
+                "title": "[esx][paid] cloak room",
+                "permalink": "/esxscripts/category/esxpaid-cloak-room"
+              }
+            },
+            {
+              "unversionedId": "cloak_room/installation",
+              "id": "cloak_room/installation",
+              "title": "installation",
+              "description": "cloak room",
+              "source": "@site/esxscripts/cloak_room/installation.mdx",
+              "sourceDirName": "cloak_room",
+              "slug": "/cloak_room/esx_cloakroom",
+              "permalink": "/esxscripts/cloak_room/esx_cloakroom",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "esx_cloakroom"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[esx][paid] cloak room",
+                "permalink": "/esxscripts/category/esxpaid-cloak-room"
+              },
+              "next": {
+                "title": "[esx][paid] flight job",
+                "permalink": "/esxscripts/category/esxpaid-flight-job"
               }
             },
             {
@@ -59,12 +84,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "[esx][paid]flight_job",
-                "permalink": "/esxscripts/category/esxpaidflight_job"
+                "title": "[esx][paid] flight job",
+                "permalink": "/esxscripts/category/esxpaid-flight-job"
               },
               "next": {
-                "title": "[esx][paid]konar_advancedcloakroom",
-                "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
+                "title": "[esx][paid] pilot job",
+                "permalink": "/esxscripts/category/esxpaid-pilot-job"
               }
             },
             {
@@ -85,33 +110,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[esx][paid]car_remote",
-                "permalink": "/esxscripts/category/esxpaidcar_remote"
-              }
-            },
-            {
-              "unversionedId": "konar_advancedcloakroom/installation",
-              "id": "konar_advancedcloakroom/installation",
-              "title": "installation",
-              "description": "esx konar advancedcloakroom",
-              "source": "@site/esxscripts/konar_advancedcloakroom/installation.mdx",
-              "sourceDirName": "konar_advancedcloakroom",
-              "slug": "/konar_advancedcloakroom/esx_konar_advancedcloakroom",
-              "permalink": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "slug": "esx_konar_advancedcloakroom"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "[esx][paid]konar_advancedcloakroom",
-                "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
-              },
-              "next": {
-                "title": "[esx][paid] pilot_job",
-                "permalink": "/esxscripts/category/esxpaid-pilot_job"
+                "title": "[esx][paid] car remote",
+                "permalink": "/esxscripts/category/esxpaid-car-remote"
               }
             },
             {
@@ -131,8 +131,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "[esx][paid] pilot_job",
-                "permalink": "/esxscripts/category/esxpaid-pilot_job"
+                "title": "[esx][paid] pilot job",
+                "permalink": "/esxscripts/category/esxpaid-pilot-job"
               }
             }
           ],
@@ -145,7 +145,7 @@
               },
               {
                 "type": "category",
-                "label": "[esx][paid]car_remote",
+                "label": "[esx][paid] car remote",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -156,13 +156,30 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/esxpaidcar_remote",
-                  "permalink": "/esxscripts/category/esxpaidcar_remote"
+                  "slug": "/category/esxpaid-car-remote",
+                  "permalink": "/esxscripts/category/esxpaid-car-remote"
                 }
               },
               {
                 "type": "category",
-                "label": "[esx][paid]flight_job",
+                "label": "[esx][paid] cloak room",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "cloak_room/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/esxpaid-cloak-room",
+                  "permalink": "/esxscripts/category/esxpaid-cloak-room"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[esx][paid] flight job",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -173,30 +190,13 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/esxpaidflight_job",
-                  "permalink": "/esxscripts/category/esxpaidflight_job"
+                  "slug": "/category/esxpaid-flight-job",
+                  "permalink": "/esxscripts/category/esxpaid-flight-job"
                 }
               },
               {
                 "type": "category",
-                "label": "[esx][paid]konar_advancedcloakroom",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "konar_advancedcloakroom/installation"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/esxpaidkonar_advancedcloakroom",
-                  "permalink": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
-                }
-              },
-              {
-                "type": "category",
-                "label": "[esx][paid] pilot_job",
+                "label": "[esx][paid] pilot job",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -207,8 +207,8 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/esxpaid-pilot_job",
-                  "permalink": "/esxscripts/category/esxpaid-pilot_job"
+                  "slug": "/category/esxpaid-pilot-job",
+                  "permalink": "/esxscripts/category/esxpaid-pilot-job"
                 }
               }
             ]
@@ -250,12 +250,37 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "[qb][paid]car_remote",
-                "permalink": "/qbscripts/category/qbpaidcar_remote"
+                "title": "[qb][paid] car remote",
+                "permalink": "/qbscripts/category/qbpaid-car-remote"
               },
               "next": {
-                "title": "[qb][paid]konar_advancedcloakroom",
-                "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+                "title": "[qb][paid] cloak room",
+                "permalink": "/qbscripts/category/qbpaid-cloak-room"
+              }
+            },
+            {
+              "unversionedId": "cloak_room/installation",
+              "id": "cloak_room/installation",
+              "title": "installation",
+              "description": "cloak room",
+              "source": "@site/qbscripts/cloak_room/installation.mdx",
+              "sourceDirName": "cloak_room",
+              "slug": "/cloak_room/qb_cloakroom",
+              "permalink": "/qbscripts/cloak_room/qb_cloakroom",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "qb_cloakroom"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[qb][paid] cloak room",
+                "permalink": "/qbscripts/category/qbpaid-cloak-room"
+              },
+              "next": {
+                "title": "[qb][paid] pilot job",
+                "permalink": "/qbscripts/category/qbpaid-pilot-job"
               }
             },
             {
@@ -276,33 +301,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[qb][paid]car_remote",
-                "permalink": "/qbscripts/category/qbpaidcar_remote"
-              }
-            },
-            {
-              "unversionedId": "konar_advancedcloakroom/installation",
-              "id": "konar_advancedcloakroom/installation",
-              "title": "installation",
-              "description": "qb konar_advancedcloakroom",
-              "source": "@site/qbscripts/konar_advancedcloakroom/installation.mdx",
-              "sourceDirName": "konar_advancedcloakroom",
-              "slug": "/konar_advancedcloakroom/qb_konar_advancedcloakroom",
-              "permalink": "/qbscripts/konar_advancedcloakroom/qb_konar_advancedcloakroom",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "slug": "qb_konar_advancedcloakroom"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "[qb][paid]konar_advancedcloakroom",
-                "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
-              },
-              "next": {
-                "title": "[qb][paid] pilot_job",
-                "permalink": "/qbscripts/category/qbpaid-pilot_job"
+                "title": "[qb][paid] car remote",
+                "permalink": "/qbscripts/category/qbpaid-car-remote"
               }
             },
             {
@@ -322,8 +322,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "[qb][paid] pilot_job",
-                "permalink": "/qbscripts/category/qbpaid-pilot_job"
+                "title": "[qb][paid] pilot job",
+                "permalink": "/qbscripts/category/qbpaid-pilot-job"
               }
             }
           ],
@@ -336,7 +336,7 @@
               },
               {
                 "type": "category",
-                "label": "[qb][paid]car_remote",
+                "label": "[qb][paid] car remote",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -347,30 +347,30 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/qbpaidcar_remote",
-                  "permalink": "/qbscripts/category/qbpaidcar_remote"
+                  "slug": "/category/qbpaid-car-remote",
+                  "permalink": "/qbscripts/category/qbpaid-car-remote"
                 }
               },
               {
                 "type": "category",
-                "label": "[qb][paid]konar_advancedcloakroom",
+                "label": "[qb][paid] cloak room",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "konar_advancedcloakroom/installation"
+                    "id": "cloak_room/installation"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/qbpaidkonar_advancedcloakroom",
-                  "permalink": "/qbscripts/category/qbpaidkonar_advancedcloakroom"
+                  "slug": "/category/qbpaid-cloak-room",
+                  "permalink": "/qbscripts/category/qbpaid-cloak-room"
                 }
               },
               {
                 "type": "category",
-                "label": "[qb][paid] pilot_job",
+                "label": "[qb][paid] pilot job",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -381,8 +381,8 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/qbpaid-pilot_job",
-                  "permalink": "/qbscripts/category/qbpaid-pilot_job"
+                  "slug": "/category/qbpaid-pilot-job",
+                  "permalink": "/qbscripts/category/qbpaid-pilot-job"
                 }
               }
             ]

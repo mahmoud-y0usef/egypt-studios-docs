@@ -1,0 +1,15 @@
+{
+  "title": "[qb][paid] pilot job",
+  "slug": "/category/qbpaid-pilot-job",
+  "permalink": "/qbscripts/category/qbpaid-pilot-job",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/qbscripts/cloak_room/qb_cloakroom"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/qbscripts/pilot_job/qb_pilot_job"
+    }
+  }
+}

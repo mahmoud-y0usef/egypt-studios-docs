@@ -1,0 +1,25 @@
+{
+  "unversionedId": "cloak_room/installation",
+  "id": "cloak_room/installation",
+  "title": "installation",
+  "description": "cloak room",
+  "source": "@site/qbscripts/cloak_room/installation.mdx",
+  "sourceDirName": "cloak_room",
+  "slug": "/cloak_room/qb_cloakroom",
+  "permalink": "/qbscripts/cloak_room/qb_cloakroom",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "qb_cloakroom"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[qb][paid] cloak room",
+    "permalink": "/qbscripts/category/qbpaid-cloak-room"
+  },
+  "next": {
+    "title": "[qb][paid] pilot job",
+    "permalink": "/qbscripts/category/qbpaid-pilot-job"
+  }
+}

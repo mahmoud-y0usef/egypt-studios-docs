@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid] cloak room",
+  "slug": "/category/esxpaid-cloak-room",
+  "permalink": "/esxscripts/category/esxpaid-cloak-room",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/esxscripts/car_remote/esx_car_remote"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/cloak_room/esx_cloakroom"
+    }
+  }
+}

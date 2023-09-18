@@ -17,7 +17,7 @@
       },
       {
         "type": "category",
-        "label": "[esx][paid]car_remote",
+        "label": "[esx][paid] car remote",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -28,11 +28,26 @@
             "docId": "car_remote/installation"
           }
         ],
-        "href": "/esxscripts/category/esxpaidcar_remote"
+        "href": "/esxscripts/category/esxpaid-car-remote"
       },
       {
         "type": "category",
-        "label": "[esx][paid]flight_job",
+        "label": "[esx][paid] cloak room",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/esxscripts/cloak_room/esx_cloakroom",
+            "docId": "cloak_room/installation"
+          }
+        ],
+        "href": "/esxscripts/category/esxpaid-cloak-room"
+      },
+      {
+        "type": "category",
+        "label": "[esx][paid] flight job",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -43,26 +58,11 @@
             "docId": "flight_job/installation"
           }
         ],
-        "href": "/esxscripts/category/esxpaidflight_job"
+        "href": "/esxscripts/category/esxpaid-flight-job"
       },
       {
         "type": "category",
-        "label": "[esx][paid]konar_advancedcloakroom",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "installation",
-            "href": "/esxscripts/konar_advancedcloakroom/esx_konar_advancedcloakroom",
-            "docId": "konar_advancedcloakroom/installation"
-          }
-        ],
-        "href": "/esxscripts/category/esxpaidkonar_advancedcloakroom"
-      },
-      {
-        "type": "category",
-        "label": "[esx][paid] pilot_job",
+        "label": "[esx][paid] pilot job",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -73,7 +73,7 @@
             "docId": "pilot_job/installation"
           }
         ],
-        "href": "/esxscripts/category/esxpaid-pilot_job"
+        "href": "/esxscripts/category/esxpaid-pilot-job"
       }
     ]
   },
@@ -82,6 +82,12 @@
       "id": "car_remote/installation",
       "title": "installation",
       "description": "car remote system",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloak_room/installation": {
+      "id": "cloak_room/installation",
+      "title": "installation",
+      "description": "cloak room",
       "sidebar": "tutorialSidebar"
     },
     "flight_job/installation": {
@@ -94,12 +100,6 @@
       "id": "intro",
       "title": "intro",
       "description": "welcome to esx scripts",
-      "sidebar": "tutorialSidebar"
-    },
-    "konar_advancedcloakroom/installation": {
-      "id": "konar_advancedcloakroom/installation",
-      "title": "installation",
-      "description": "esx konar advancedcloakroom",
       "sidebar": "tutorialSidebar"
     },
     "pilot_job/installation": {

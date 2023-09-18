@@ -1,0 +1,15 @@
+{
+  "title": "[qb][paid]cloak room",
+  "slug": "/category/qbpaidcloak-room",
+  "permalink": "/qbscripts/category/qbpaidcloak-room",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/qbscripts/car_remote/qb_car_remote"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/qbscripts/cloak_room/qb_cloakroom"
+    }
+  }
+}

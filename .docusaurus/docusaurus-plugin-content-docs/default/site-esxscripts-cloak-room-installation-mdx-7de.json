@@ -1,0 +1,25 @@
+{
+  "unversionedId": "cloak_room/installation",
+  "id": "cloak_room/installation",
+  "title": "installation",
+  "description": "cloak room",
+  "source": "@site/esxscripts/cloak_room/installation.mdx",
+  "sourceDirName": "cloak_room",
+  "slug": "/cloak_room/esx_cloakroom",
+  "permalink": "/esxscripts/cloak_room/esx_cloakroom",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_cloakroom"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid] cloak room",
+    "permalink": "/esxscripts/category/esxpaid-cloak-room"
+  },
+  "next": {
+    "title": "[esx][paid] flight job",
+    "permalink": "/esxscripts/category/esxpaid-flight-job"
+  }
+}
