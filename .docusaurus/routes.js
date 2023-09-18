@@ -151,11 +151,23 @@ export default [
   },
   {
     path: '/standalonescripts',
-    component: ComponentCreator('/standalonescripts', 'fc2'),
+    component: ComponentCreator('/standalonescripts', 'd66'),
     routes: [
       {
-        path: '/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio',
-        component: ComponentCreator('/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio', '8e3'),
+        path: '/standalonescripts/animation_menu/animation_menu',
+        component: ComponentCreator('/standalonescripts/animation_menu/animation_menu', '980'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/category/standalonepaid-animation-menu',
+        component: ComponentCreator('/standalonescripts/category/standalonepaid-animation-menu', '7ae'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/category/standalonepaid-radio',
+        component: ComponentCreator('/standalonescripts/category/standalonepaid-radio', '5a5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

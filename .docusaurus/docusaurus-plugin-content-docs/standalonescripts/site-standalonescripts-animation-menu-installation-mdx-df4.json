@@ -1,0 +1,25 @@
+{
+  "unversionedId": "animation_menu/installation",
+  "id": "animation_menu/installation",
+  "title": "installation",
+  "description": "animation menu",
+  "source": "@site/standalonescripts/animation_menu/installation.mdx",
+  "sourceDirName": "animation_menu",
+  "slug": "/animation_menu/animation_menu",
+  "permalink": "/standalonescripts/animation_menu/animation_menu",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "animation_menu"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[standalone][paid] animation menu",
+    "permalink": "/standalonescripts/category/standalonepaid-animation-menu"
+  },
+  "next": {
+    "title": "[standalone][paid] radio",
+    "permalink": "/standalonescripts/category/standalonepaid-radio"
+  }
+}

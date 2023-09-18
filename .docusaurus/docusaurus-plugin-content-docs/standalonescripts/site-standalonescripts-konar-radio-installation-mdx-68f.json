@@ -2,7 +2,7 @@
   "unversionedId": "konar_radio/installation",
   "id": "konar_radio/installation",
   "title": "installation",
-  "description": "konar radio v1",
+  "description": "konar radio",
   "source": "@site/standalonescripts/konar_radio/installation.mdx",
   "sourceDirName": "konar_radio",
   "slug": "/konar_radio/Konar_Radio",
@@ -15,7 +15,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "[standalone][paid][open source] fivem konar radio",
-    "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
+    "title": "[standalone][paid] radio",
+    "permalink": "/standalonescripts/category/standalonepaid-radio"
   }
 }

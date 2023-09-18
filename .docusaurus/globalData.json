@@ -129,6 +129,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "animation_menu/installation",
+              "path": "/standalonescripts/animation_menu/animation_menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/standalonescripts/intro",
               "sidebar": "tutorialSidebar"
@@ -139,8 +144,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/standalonepaidopen-source-fivem-konar-radio",
-              "path": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio",
+              "id": "/category/standalonepaid-animation-menu",
+              "path": "/standalonescripts/category/standalonepaid-animation-menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/standalonepaid-radio",
+              "path": "/standalonescripts/category/standalonepaid-radio",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -1,0 +1,15 @@
+{
+  "title": "[standalone][paid] animation menu",
+  "slug": "/category/standalonepaid-animation-menu",
+  "permalink": "/standalonescripts/category/standalonepaid-animation-menu",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/standalonescripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/standalonescripts/animation_menu/animation_menu"
+    }
+  }
+}

@@ -282,6 +282,31 @@
           "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs-standalonescripts\\current",
           "docs": [
             {
+              "unversionedId": "animation_menu/installation",
+              "id": "animation_menu/installation",
+              "title": "installation",
+              "description": "animation menu",
+              "source": "@site/standalonescripts/animation_menu/installation.mdx",
+              "sourceDirName": "animation_menu",
+              "slug": "/animation_menu/animation_menu",
+              "permalink": "/standalonescripts/animation_menu/animation_menu",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "animation_menu"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[standalone][paid] animation menu",
+                "permalink": "/standalonescripts/category/standalonepaid-animation-menu"
+              },
+              "next": {
+                "title": "[standalone][paid] radio",
+                "permalink": "/standalonescripts/category/standalonepaid-radio"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "intro",
@@ -299,15 +324,15 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[standalone][paid][open source] fivem konar radio",
-                "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
+                "title": "[standalone][paid] animation menu",
+                "permalink": "/standalonescripts/category/standalonepaid-animation-menu"
               }
             },
             {
               "unversionedId": "konar_radio/installation",
               "id": "konar_radio/installation",
               "title": "installation",
-              "description": "konar radio v1",
+              "description": "konar radio",
               "source": "@site/standalonescripts/konar_radio/installation.mdx",
               "sourceDirName": "konar_radio",
               "slug": "/konar_radio/Konar_Radio",
@@ -320,8 +345,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "[standalone][paid][open source] fivem konar radio",
-                "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
+                "title": "[standalone][paid] radio",
+                "permalink": "/standalonescripts/category/standalonepaid-radio"
               }
             }
           ],
@@ -334,7 +359,24 @@
               },
               {
                 "type": "category",
-                "label": "[standalone][paid][open source] fivem konar radio",
+                "label": "[standalone][paid] animation menu",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "animation_menu/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/standalonepaid-animation-menu",
+                  "permalink": "/standalonescripts/category/standalonepaid-animation-menu"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[standalone][paid] radio",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -345,8 +387,8 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/standalonepaidopen-source-fivem-konar-radio",
-                  "permalink": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
+                  "slug": "/category/standalonepaid-radio",
+                  "permalink": "/standalonescripts/category/standalonepaid-radio"
                 }
               }
             ]

@@ -17,7 +17,22 @@
       },
       {
         "type": "category",
-        "label": "[standalone][paid][open source] fivem konar radio",
+        "label": "[standalone][paid] animation menu",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/standalonescripts/animation_menu/animation_menu",
+            "docId": "animation_menu/installation"
+          }
+        ],
+        "href": "/standalonescripts/category/standalonepaid-animation-menu"
+      },
+      {
+        "type": "category",
+        "label": "[standalone][paid] radio",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -28,11 +43,17 @@
             "docId": "konar_radio/installation"
           }
         ],
-        "href": "/standalonescripts/category/standalonepaidopen-source-fivem-konar-radio"
+        "href": "/standalonescripts/category/standalonepaid-radio"
       }
     ]
   },
   "docs": {
+    "animation_menu/installation": {
+      "id": "animation_menu/installation",
+      "title": "installation",
+      "description": "animation menu",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "intro",
@@ -42,7 +63,7 @@
     "konar_radio/installation": {
       "id": "konar_radio/installation",
       "title": "installation",
-      "description": "konar radio v1",
+      "description": "konar radio",
       "sidebar": "tutorialSidebar"
     }
   }
