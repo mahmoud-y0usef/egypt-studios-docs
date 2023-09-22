@@ -44,6 +44,21 @@
           }
         ],
         "href": "/standalonescripts/category/standalonepaid-radio"
+      },
+      {
+        "type": "category",
+        "label": "[standalone][paid] laptop",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/standalonescripts/laptop/laptop",
+            "docId": "laptop/installation"
+          }
+        ],
+        "href": "/standalonescripts/category/standalonepaid-laptop"
       }
     ]
   },
@@ -64,6 +79,12 @@
       "id": "konar_radio/installation",
       "title": "installation",
       "description": "konar radio",
+      "sidebar": "tutorialSidebar"
+    },
+    "laptop/installation": {
+      "id": "laptop/installation",
+      "title": "installation",
+      "description": "laptop",
       "sidebar": "tutorialSidebar"
     }
   }

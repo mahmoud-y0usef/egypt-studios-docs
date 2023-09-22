@@ -187,7 +187,7 @@ export default [
   },
   {
     path: '/standalonescripts',
-    component: ComponentCreator('/standalonescripts', 'd66'),
+    component: ComponentCreator('/standalonescripts', '606'),
     routes: [
       {
         path: '/standalonescripts/animation_menu/animation_menu',
@@ -198,6 +198,12 @@ export default [
       {
         path: '/standalonescripts/category/standalonepaid-animation-menu',
         component: ComponentCreator('/standalonescripts/category/standalonepaid-animation-menu', '7ae'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/category/standalonepaid-laptop',
+        component: ComponentCreator('/standalonescripts/category/standalonepaid-laptop', 'fad'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -216,6 +222,12 @@ export default [
       {
         path: '/standalonescripts/konar_radio/Konar_Radio',
         component: ComponentCreator('/standalonescripts/konar_radio/Konar_Radio', 'e10'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/laptop/laptop',
+        component: ComponentCreator('/standalonescripts/laptop/laptop', '91a'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

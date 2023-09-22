@@ -473,6 +473,31 @@
               "previous": {
                 "title": "[standalone][paid] radio",
                 "permalink": "/standalonescripts/category/standalonepaid-radio"
+              },
+              "next": {
+                "title": "[standalone][paid] laptop",
+                "permalink": "/standalonescripts/category/standalonepaid-laptop"
+              }
+            },
+            {
+              "unversionedId": "laptop/installation",
+              "id": "laptop/installation",
+              "title": "installation",
+              "description": "laptop",
+              "source": "@site/standalonescripts/laptop/installation.mdx",
+              "sourceDirName": "laptop",
+              "slug": "/laptop/laptop",
+              "permalink": "/standalonescripts/laptop/laptop",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "laptop"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[standalone][paid] laptop",
+                "permalink": "/standalonescripts/category/standalonepaid-laptop"
               }
             }
           ],
@@ -515,6 +540,23 @@
                   "type": "generated-index",
                   "slug": "/category/standalonepaid-radio",
                   "permalink": "/standalonescripts/category/standalonepaid-radio"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[standalone][paid] laptop",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "laptop/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/standalonepaid-laptop",
+                  "permalink": "/standalonescripts/category/standalonepaid-laptop"
                 }
               }
             ]

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "laptop/installation",
+  "id": "laptop/installation",
+  "title": "installation",
+  "description": "laptop",
+  "source": "@site/standalonescripts/laptop/installation.mdx",
+  "sourceDirName": "laptop",
+  "slug": "/laptop/laptop",
+  "permalink": "/standalonescripts/laptop/laptop",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "laptop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[standalone][paid] laptop",
+    "permalink": "/standalonescripts/category/standalonepaid-laptop"
+  }
+}
