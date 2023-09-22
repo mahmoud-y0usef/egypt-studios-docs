@@ -56,6 +56,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "notify/installation",
+              "path": "/esxscripts/notify/esx_notify",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "pilot_job/installation",
               "path": "/esxscripts/pilot_job/esx_pilot_job",
               "sidebar": "tutorialSidebar"
@@ -78,6 +83,11 @@
             {
               "id": "/category/esxpaid-flight-job",
               "path": "/esxscripts/category/esxpaid-flight-job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/esxpaid-notify",
+              "path": "/esxscripts/category/esxpaid-notify",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -79,7 +79,7 @@ export default [
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', '3b5'),
+    component: ComponentCreator('/esxscripts', 'b73'),
     routes: [
       {
         path: '/esxscripts/barber_shop/esx_barber_shop',
@@ -118,6 +118,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/esxscripts/category/esxpaid-notify',
+        component: ComponentCreator('/esxscripts/category/esxpaid-notify', '3fd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/esxscripts/category/esxpaid-pilot-job',
         component: ComponentCreator('/esxscripts/category/esxpaid-pilot-job', '9aa'),
         exact: true,
@@ -138,6 +144,12 @@ export default [
       {
         path: '/esxscripts/intro',
         component: ComponentCreator('/esxscripts/intro', 'c77'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/notify/esx_notify',
+        component: ComponentCreator('/esxscripts/notify/esx_notify', 'e67'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

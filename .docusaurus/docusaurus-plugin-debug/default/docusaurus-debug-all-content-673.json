@@ -113,8 +113,8 @@
                 "permalink": "/esxscripts/category/esxpaid-flight-job"
               },
               "next": {
-                "title": "[esx][paid] pilot job",
-                "permalink": "/esxscripts/category/esxpaid-pilot-job"
+                "title": "[esx][paid] notify",
+                "permalink": "/esxscripts/category/esxpaid-notify"
               }
             },
             {
@@ -137,6 +137,31 @@
               "next": {
                 "title": "[esx][paid] barber shop",
                 "permalink": "/esxscripts/category/esxpaid-barber-shop"
+              }
+            },
+            {
+              "unversionedId": "notify/installation",
+              "id": "notify/installation",
+              "title": "installation",
+              "description": "notyfi",
+              "source": "@site/esxscripts/notify/installation.mdx",
+              "sourceDirName": "notify",
+              "slug": "/notify/esx_notify",
+              "permalink": "/esxscripts/notify/esx_notify",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "esx_notify"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[esx][paid] notify",
+                "permalink": "/esxscripts/category/esxpaid-notify"
+              },
+              "next": {
+                "title": "[esx][paid] pilot job",
+                "permalink": "/esxscripts/category/esxpaid-pilot-job"
               }
             },
             {
@@ -234,6 +259,23 @@
                   "type": "generated-index",
                   "slug": "/category/esxpaid-flight-job",
                   "permalink": "/esxscripts/category/esxpaid-flight-job"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[esx][paid] notify",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "notify/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/esxpaid-notify",
+                  "permalink": "/esxscripts/category/esxpaid-notify"
                 }
               },
               {

@@ -77,6 +77,21 @@
       },
       {
         "type": "category",
+        "label": "[esx][paid] notify",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/esxscripts/notify/esx_notify",
+            "docId": "notify/installation"
+          }
+        ],
+        "href": "/esxscripts/category/esxpaid-notify"
+      },
+      {
+        "type": "category",
         "label": "[esx][paid] pilot job",
         "collapsible": true,
         "collapsed": true,
@@ -121,6 +136,12 @@
       "id": "intro",
       "title": "intro",
       "description": "welcome to esx scripts",
+      "sidebar": "tutorialSidebar"
+    },
+    "notify/installation": {
+      "id": "notify/installation",
+      "title": "installation",
+      "description": "notyfi",
       "sidebar": "tutorialSidebar"
     },
     "pilot_job/installation": {

@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid] notify",
+  "slug": "/category/esxpaid-notify",
+  "permalink": "/esxscripts/category/esxpaid-notify",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/esxscripts/flight_job/esx_flight_job"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/notify/esx_notify"
+    }
+  }
+}

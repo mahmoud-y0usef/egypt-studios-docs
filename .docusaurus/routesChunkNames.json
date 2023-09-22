@@ -104,7 +104,7 @@
       "plugin": "plugin---search-6-d-6-15a"
     }
   },
-  "/esxscripts-3b5": {
+  "/esxscripts-b73": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---esxscriptsfd-7-4be"
@@ -135,6 +135,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---esxscripts-category-esxpaid-flight-job-012-636"
   },
+  "/esxscripts/category/esxpaid-notify-3fd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---esxscripts-category-esxpaid-notifyda-4-664"
+  },
   "/esxscripts/category/esxpaid-pilot-job-9aa": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---esxscripts-category-esxpaid-pilot-job-52-e-f4f"
@@ -150,6 +154,10 @@
   "/esxscripts/intro-c77": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---esxscripts-intro-2-fd-9ad"
+  },
+  "/esxscripts/notify/esx_notify-e67": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---esxscripts-notify-esx-barber-shop-18-e-a7d"
   },
   "/esxscripts/pilot_job/esx_pilot_job-d25": {
     "__comp": "__comp---theme-doc-item-178-a40",

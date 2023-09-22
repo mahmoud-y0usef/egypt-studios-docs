@@ -1,0 +1,25 @@
+{
+  "unversionedId": "barber_shop copy/installation",
+  "id": "barber_shop copy/installation",
+  "title": "installation",
+  "description": "barber shop",
+  "source": "@site/esxscripts/barber_shop copy/installation.mdx",
+  "sourceDirName": "barber_shop copy",
+  "slug": "/barber_shop copy/esx_barber_shop",
+  "permalink": "/esxscripts/barber_shop copy/esx_barber_shop",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_barber_shop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid] barber shop",
+    "permalink": "/esxscripts/category/esxpaid-barber-shop-1"
+  },
+  "next": {
+    "title": "[esx][paid] car remote",
+    "permalink": "/esxscripts/category/esxpaid-car-remote"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "notify/installation",
+  "id": "notify/installation",
+  "title": "installation",
+  "description": "notyfi",
+  "source": "@site/esxscripts/notify/installation.mdx",
+  "sourceDirName": "notify",
+  "slug": "/notify/esx_notify",
+  "permalink": "/esxscripts/notify/esx_notify",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_notify"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid] notify",
+    "permalink": "/esxscripts/category/esxpaid-notify"
+  },
+  "next": {
+    "title": "[esx][paid] pilot job",
+    "permalink": "/esxscripts/category/esxpaid-pilot-job"
+  }
+}
