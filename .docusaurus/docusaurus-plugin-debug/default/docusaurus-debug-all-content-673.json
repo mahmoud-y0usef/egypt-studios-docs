@@ -498,6 +498,31 @@
               "previous": {
                 "title": "[standalone][paid] laptop",
                 "permalink": "/standalonescripts/category/standalonepaid-laptop"
+              },
+              "next": {
+                "title": "[standalone][paid] pc",
+                "permalink": "/standalonescripts/category/standalonepaid-pc"
+              }
+            },
+            {
+              "unversionedId": "pc/installation",
+              "id": "pc/installation",
+              "title": "installation",
+              "description": "pc",
+              "source": "@site/standalonescripts/pc/installation.mdx",
+              "sourceDirName": "pc",
+              "slug": "/pc/pc",
+              "permalink": "/standalonescripts/pc/pc",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "pc"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[standalone][paid] pc",
+                "permalink": "/standalonescripts/category/standalonepaid-pc"
               }
             }
           ],
@@ -557,6 +582,23 @@
                   "type": "generated-index",
                   "slug": "/category/standalonepaid-laptop",
                   "permalink": "/standalonescripts/category/standalonepaid-laptop"
+                }
+              },
+              {
+                "type": "category",
+                "label": "[standalone][paid] pc",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "pc/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/standalonepaid-pc",
+                  "permalink": "/standalonescripts/category/standalonepaid-pc"
                 }
               }
             ]

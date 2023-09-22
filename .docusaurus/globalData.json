@@ -179,6 +179,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "pc/installation",
+              "path": "/standalonescripts/pc/pc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/standalonepaid-animation-menu",
               "path": "/standalonescripts/category/standalonepaid-animation-menu",
               "sidebar": "tutorialSidebar"
@@ -191,6 +196,11 @@
             {
               "id": "/category/standalonepaid-laptop",
               "path": "/standalonescripts/category/standalonepaid-laptop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/standalonepaid-pc",
+              "path": "/standalonescripts/category/standalonepaid-pc",
               "sidebar": "tutorialSidebar"
             }
           ],

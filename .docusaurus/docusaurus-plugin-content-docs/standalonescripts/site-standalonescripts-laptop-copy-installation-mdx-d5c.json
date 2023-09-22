@@ -1,0 +1,21 @@
+{
+  "unversionedId": "laptop copy/installation",
+  "id": "laptop copy/installation",
+  "title": "installation",
+  "description": "laptop",
+  "source": "@site/standalonescripts/laptop copy/installation.mdx",
+  "sourceDirName": "laptop copy",
+  "slug": "/laptop copy/laptop",
+  "permalink": "/standalonescripts/laptop copy/laptop",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "laptop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[standalone][paid] laptop",
+    "permalink": "/standalonescripts/category/standalonepaid-laptop-1"
+  }
+}

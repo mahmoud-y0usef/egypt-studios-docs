@@ -1,0 +1,21 @@
+{
+  "unversionedId": "pc/installation",
+  "id": "pc/installation",
+  "title": "installation",
+  "description": "pc",
+  "source": "@site/standalonescripts/pc/installation.mdx",
+  "sourceDirName": "pc",
+  "slug": "/pc/pc",
+  "permalink": "/standalonescripts/pc/pc",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "pc"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[standalone][paid] pc",
+    "permalink": "/standalonescripts/category/standalonepaid-pc"
+  }
+}

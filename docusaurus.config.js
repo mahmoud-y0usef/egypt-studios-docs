@@ -104,7 +104,7 @@ module.exports = {
         {to: '/rules', label: 'Rules', position: 'left'},
         {to: '/roadmap', label: 'fivem courses', position: 'left'},
         {
-          href: 'https://egyptstudio.tebex.io/category/2031240',
+          href: 'https://egyptstudio.tebex.io/',
           label: 'Shop Now',
           position: 'right',
         },

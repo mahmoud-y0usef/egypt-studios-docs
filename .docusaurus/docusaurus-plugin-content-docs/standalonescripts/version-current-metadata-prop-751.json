@@ -59,6 +59,21 @@
           }
         ],
         "href": "/standalonescripts/category/standalonepaid-laptop"
+      },
+      {
+        "type": "category",
+        "label": "[standalone][paid] pc",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/standalonescripts/pc/pc",
+            "docId": "pc/installation"
+          }
+        ],
+        "href": "/standalonescripts/category/standalonepaid-pc"
       }
     ]
   },
@@ -85,6 +100,12 @@
       "id": "laptop/installation",
       "title": "installation",
       "description": "laptop",
+      "sidebar": "tutorialSidebar"
+    },
+    "pc/installation": {
+      "id": "pc/installation",
+      "title": "installation",
+      "description": "pc",
       "sidebar": "tutorialSidebar"
     }
   }

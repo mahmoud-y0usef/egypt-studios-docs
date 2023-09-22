@@ -1,0 +1,15 @@
+{
+  "title": "[standalone][paid] pc",
+  "slug": "/category/standalonepaid-pc",
+  "permalink": "/standalonescripts/category/standalonepaid-pc",
+  "navigation": {
+    "previous": {
+      "title": "installation",
+      "permalink": "/standalonescripts/laptop/laptop"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/standalonescripts/pc/pc"
+    }
+  }
+}

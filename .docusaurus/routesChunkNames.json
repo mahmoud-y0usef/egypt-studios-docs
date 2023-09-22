@@ -182,7 +182,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---qbscripts-pilot-job-qb-pilot-job-252-104"
   },
-  "/standalonescripts-606": {
+  "/standalonescripts-513": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---standalonescripts-3-e-5-df6"
@@ -201,6 +201,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---standalonescripts-category-standalonepaid-laptop-076-c15"
   },
+  "/standalonescripts/category/standalonepaid-pc-174": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---standalonescripts-category-standalonepaid-pc-2-de-8fb"
+  },
   "/standalonescripts/category/standalonepaid-radio-5a5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---standalonescripts-category-standalonepaid-radio-4-e-0-f84"
@@ -216,6 +220,10 @@
   "/standalonescripts/laptop/laptop-91a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---standalonescripts-laptop-laptop-4-a-5-e48"
+  },
+  "/standalonescripts/pc/pc-e65": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---standalonescripts-pc-laptop-111-929"
   },
   "/-153": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

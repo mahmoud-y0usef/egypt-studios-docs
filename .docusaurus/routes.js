@@ -187,7 +187,7 @@ export default [
   },
   {
     path: '/standalonescripts',
-    component: ComponentCreator('/standalonescripts', '606'),
+    component: ComponentCreator('/standalonescripts', '513'),
     routes: [
       {
         path: '/standalonescripts/animation_menu/animation_menu',
@@ -204,6 +204,12 @@ export default [
       {
         path: '/standalonescripts/category/standalonepaid-laptop',
         component: ComponentCreator('/standalonescripts/category/standalonepaid-laptop', 'fad'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/category/standalonepaid-pc',
+        component: ComponentCreator('/standalonescripts/category/standalonepaid-pc', '174'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -228,6 +234,12 @@ export default [
       {
         path: '/standalonescripts/laptop/laptop',
         component: ComponentCreator('/standalonescripts/laptop/laptop', '91a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/standalonescripts/pc/pc',
+        component: ComponentCreator('/standalonescripts/pc/pc', 'e65'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
