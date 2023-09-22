@@ -1,0 +1,25 @@
+{
+  "unversionedId": "parper/installation",
+  "id": "parper/installation",
+  "title": "installation",
+  "description": "pilot job",
+  "source": "@site/esxscripts/parper/installation.mdx",
+  "sourceDirName": "parper",
+  "slug": "/parper/esx_pilot_job",
+  "permalink": "/esxscripts/parper/esx_pilot_job",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_pilot_job"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid] pilot job",
+    "permalink": "/esxscripts/category/esxpaid-pilot-job"
+  },
+  "next": {
+    "title": "[esx][paid] pilot job",
+    "permalink": "/esxscripts/category/esxpaid-pilot-job-1"
+  }
+}

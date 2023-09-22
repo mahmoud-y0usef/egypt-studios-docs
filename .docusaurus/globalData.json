@@ -31,6 +31,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "barber_shop/installation",
+              "path": "/esxscripts/barber_shop/esx_barber_shop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "car_remote/installation",
               "path": "/esxscripts/car_remote/esx_car_remote",
               "sidebar": "tutorialSidebar"
@@ -53,6 +58,11 @@
             {
               "id": "pilot_job/installation",
               "path": "/esxscripts/pilot_job/esx_pilot_job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/esxpaid-barber-shop",
+              "path": "/esxscripts/category/esxpaid-barber-shop",
               "sidebar": "tutorialSidebar"
             },
             {

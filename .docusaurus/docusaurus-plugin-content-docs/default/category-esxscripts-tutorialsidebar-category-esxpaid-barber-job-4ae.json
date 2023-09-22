@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid] barber job",
+  "slug": "/category/esxpaid-barber-job",
+  "permalink": "/esxscripts/category/esxpaid-barber-job",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/esxscripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/barber_shop/esx_pilot_job"
+    }
+  }
+}

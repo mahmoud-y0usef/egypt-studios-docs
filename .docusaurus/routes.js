@@ -79,11 +79,23 @@ export default [
   },
   {
     path: '/esxscripts',
-    component: ComponentCreator('/esxscripts', 'a44'),
+    component: ComponentCreator('/esxscripts', '3b5'),
     routes: [
+      {
+        path: '/esxscripts/barber_shop/esx_barber_shop',
+        component: ComponentCreator('/esxscripts/barber_shop/esx_barber_shop', '6c0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/esxscripts/car_remote/esx_car_remote',
         component: ComponentCreator('/esxscripts/car_remote/esx_car_remote', '871'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/esxscripts/category/esxpaid-barber-shop',
+        component: ComponentCreator('/esxscripts/category/esxpaid-barber-shop', '2bf'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

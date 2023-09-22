@@ -1,0 +1,21 @@
+{
+  "unversionedId": "pilot_job copy/installation",
+  "id": "pilot_job copy/installation",
+  "title": "installation",
+  "description": "pilot job",
+  "source": "@site/esxscripts/pilot_job copy/installation.mdx",
+  "sourceDirName": "pilot_job copy",
+  "slug": "/pilot_job copy/esx_pilot_job",
+  "permalink": "/esxscripts/pilot_job copy/esx_pilot_job",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "esx_pilot_job"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[esx][paid] pilot job",
+    "permalink": "/esxscripts/category/esxpaid-pilot-job-1"
+  }
+}

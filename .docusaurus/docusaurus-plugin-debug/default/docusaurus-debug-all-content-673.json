@@ -18,6 +18,31 @@
           "contentPathLocalized": "D:\\egypt-studios-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "unversionedId": "barber_shop/installation",
+              "id": "barber_shop/installation",
+              "title": "installation",
+              "description": "barber shop",
+              "source": "@site/esxscripts/barber_shop/installation.mdx",
+              "sourceDirName": "barber_shop",
+              "slug": "/barber_shop/esx_barber_shop",
+              "permalink": "/esxscripts/barber_shop/esx_barber_shop",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "slug": "esx_barber_shop"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "[esx][paid] barber shop",
+                "permalink": "/esxscripts/category/esxpaid-barber-shop"
+              },
+              "next": {
+                "title": "[esx][paid] car remote",
+                "permalink": "/esxscripts/category/esxpaid-car-remote"
+              }
+            },
+            {
               "unversionedId": "car_remote/installation",
               "id": "car_remote/installation",
               "title": "installation",
@@ -110,8 +135,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[esx][paid] car remote",
-                "permalink": "/esxscripts/category/esxpaid-car-remote"
+                "title": "[esx][paid] barber shop",
+                "permalink": "/esxscripts/category/esxpaid-barber-shop"
               }
             },
             {
@@ -142,6 +167,23 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "[esx][paid] barber shop",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "barber_shop/installation"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/esxpaid-barber-shop",
+                  "permalink": "/esxscripts/category/esxpaid-barber-shop"
+                }
               },
               {
                 "type": "category",

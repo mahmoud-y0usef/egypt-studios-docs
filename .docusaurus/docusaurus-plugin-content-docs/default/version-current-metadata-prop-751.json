@@ -17,6 +17,21 @@
       },
       {
         "type": "category",
+        "label": "[esx][paid] barber shop",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "installation",
+            "href": "/esxscripts/barber_shop/esx_barber_shop",
+            "docId": "barber_shop/installation"
+          }
+        ],
+        "href": "/esxscripts/category/esxpaid-barber-shop"
+      },
+      {
+        "type": "category",
         "label": "[esx][paid] car remote",
         "collapsible": true,
         "collapsed": true,
@@ -78,6 +93,12 @@
     ]
   },
   "docs": {
+    "barber_shop/installation": {
+      "id": "barber_shop/installation",
+      "title": "installation",
+      "description": "barber shop",
+      "sidebar": "tutorialSidebar"
+    },
     "car_remote/installation": {
       "id": "car_remote/installation",
       "title": "installation",

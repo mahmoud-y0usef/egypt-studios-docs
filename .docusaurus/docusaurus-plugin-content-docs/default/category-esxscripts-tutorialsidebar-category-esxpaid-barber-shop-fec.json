@@ -1,0 +1,15 @@
+{
+  "title": "[esx][paid] barber shop",
+  "slug": "/category/esxpaid-barber-shop",
+  "permalink": "/esxscripts/category/esxpaid-barber-shop",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/esxscripts/intro"
+    },
+    "next": {
+      "title": "installation",
+      "permalink": "/esxscripts/barber_shop/esx_barber_shop"
+    }
+  }
+}
