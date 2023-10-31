@@ -61,7 +61,7 @@ export default function Home() {
       
       <br/>
       <main className='container'>
-      <h1 style={{display:"inline"}}>RoadMap - خطة الدراسة</h1>  <center><span><button style={{border:"none" , background:"#200122" , padding:"8px" , color:"white" , borderRadius:"10px"}}><a style={{textDecoration:"none" , color:"white"}} href='form' target={"_blank"}>تسجيل</a></button></span></center><br/><br/>
+      <h1 style={{display:"inline"}}>RoadMap - خطة الدراسة</h1>  <center><span><button style={{border:"none" , background:"#200122" , padding:"8px" , color:"white" , borderRadius:"10px"}}><a style={{textDecoration:"none" , color:"white"}} href='https://www.udemy.com/course/fivem-course' target={"_blank"}>شراء الكورس</a></button></span></center><br/><br/>
       
       <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
@@ -274,7 +274,7 @@ export default function Home() {
         </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="11">
+      <Accordion.Item eventKey="12">
         <Accordion.Header>the XIII week</Accordion.Header>
         <Accordion.Body>
         <ListGroup as="ol" numbered>
@@ -293,7 +293,7 @@ export default function Home() {
         </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="12">
+      <Accordion.Item eventKey="13">
         <Accordion.Header>the XIV week</Accordion.Header>
         <Accordion.Body>
         <ListGroup as="ol" numbered>
@@ -310,7 +310,7 @@ export default function Home() {
         </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="13">
+      <Accordion.Item eventKey="14">
         <Accordion.Header>the XV week</Accordion.Header>
         <Accordion.Body>
         <ListGroup as="ol" numbered>
@@ -337,7 +337,7 @@ export default function Home() {
         </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="14">
+      <Accordion.Item eventKey="15">
         <Accordion.Header>the XVI week</Accordion.Header>
         <Accordion.Body>
         <ListGroup as="ol" numbered>
@@ -390,7 +390,7 @@ export default function Home() {
     </Accordion>
       </main>
       <br/>
-      <center><span><button style={{border:"none" , background:"#200122" , padding:"8px" , color:"white" , borderRadius:"10px"}}><a style={{textDecoration:"none" , color:"white"}} href='form' target={"_blank"}>تسجيل</a></button></span></center><br/><br/>
+      <center><span><button style={{border:"none" , background:"#200122" , padding:"8px" , color:"white" , borderRadius:"10px"}}><a style={{textDecoration:"none" , color:"white"}} href='https://www.udemy.com/course/fivem-course' target={"_blank"}>شراء الكورس</a></button></span></center><br/><br/>
     </Layout>
   );
   
