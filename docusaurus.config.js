@@ -29,7 +29,6 @@ module.exports = {
         indexBlog:true,
         indexPages:false,
         docsRouteBasePath:"/",
-        blogRouteBasePath:"/blog",
         hashed:false,
         highlightSearchTermsOnTargetPage: true,
       },
@@ -99,13 +98,13 @@ module.exports = {
           ],
         },
         
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/privacy', label: 'privacy', position: 'left'},
+        {to: 'https://egypt-studio.com/category/blog/', label: 'Blog', position: 'left'},
         {to: '/rules', label: 'Rules', position: 'left'},
         {to: '/roadmap', label: 'fivem courses', position: 'left'},
+       
         {
-          href: 'https://egyptstudio.tebex.io/',
-          label: 'Shop Now',
+          href: 'https://egypt-studio.com/',
+          label: 'New Website',
           position: 'right',
         },
         // {
